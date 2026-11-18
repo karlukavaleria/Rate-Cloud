@@ -2,7 +2,7 @@
 
 [English](FAQ.md) · [Русский](ru/FAQ.md) · [Overview](README.md)
 
-Product information reflects the official website on November 3, 2026. Check the live dashboard and terms before purchasing.
+Product prices and account limits were updated on November 18, 2026. Check the live dashboard and terms before purchasing.
 
 ## What is Rate Cloud?
 

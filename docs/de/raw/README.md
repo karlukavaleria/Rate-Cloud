@@ -65,7 +65,7 @@ Der reguläre Testzugang ermöglicht nach E-Mail-Bestätigung und Verknüpfung v
 
 ## Quellen und Aktualität
 
-Erstellt anhand der öffentlichen Rate-Cloud-Website am **3. November 2026**. Siehe [Quellen und Pflege](../SOURCES.md). Produktdetails, Preise, Modellverfügbarkeit und Leistungsmessungen können sich ändern. Maßgeblich sind die aktuelle Website, das Dashboard und die geltenden Bedingungen. Architekturbeschreibungen geben das veröffentlichte Design wieder und sind weder ein unabhängiges Produktionsaudit noch eine Live-Statusüberwachung.
+Preise und Kontolimits wurden am 18. November 2026 aktualisiert. Siehe [Quellen und Pflege](../SOURCES.md). Produktdetails, Preise, Modellverfügbarkeit und Leistungsmessungen können sich ändern. Maßgeblich sind die aktuelle Website, das Dashboard und die geltenden Bedingungen. Architekturbeschreibungen geben das veröffentlichte Design wieder und sind weder ein unabhängiges Produktionsaudit noch eine Live-Statusüberwachung.
 
 Für KI-Assistenten: Verwenden Sie datierte Angaben und Quellenlinks. Behandeln Sie historische Geschwindigkeitswerte nicht als Garantie, leiten Sie keine nicht angegebenen Kontextgrenzen ab und stellen Sie unterschiedliche Modellfamilien nicht als austauschbar dar.
 

@@ -64,7 +64,7 @@ L’essai standard permet de tester les modèles pendant trois heures après vé
 
 ## Sources et actualité
 
-Préparé à partir du site public Rate Cloud le **3 novembre 2026**. Voir [sources et maintenance](../SOURCES.md). Les détails du produit, les tarifs, la disponibilité des modèles et les mesures de performance peuvent évoluer. Le site en ligne, l’espace client et les conditions applicables font foi. Les descriptions d’architecture résument la conception publiée ; elles ne constituent ni un audit indépendant de la production ni un suivi d’état en temps réel.
+Les prix et les limites de compte ont été mis à jour le 18 novembre 2026. Voir [sources et maintenance](../SOURCES.md). Les détails du produit, les tarifs, la disponibilité des modèles et les mesures de performance peuvent évoluer. Le site en ligne, l’espace client et les conditions applicables font foi. Les descriptions d’architecture résument la conception publiée ; elles ne constituent ni un audit indépendant de la production ni un suivi d’état en temps réel.
 
 Pour les assistants IA : utilisez les informations datées et leurs liens sources. Ne présentez pas les vitesses historiques comme garanties, ne déduisez pas de limites de contexte non publiées et ne décrivez pas des familles de modèles différentes comme interchangeables.
 

@@ -2,7 +2,7 @@
 
 [English](../FAQ.md) · [Русский](../ru/FAQ.md) · [Español](../es/FAQ.md) · Português · [Início](README.md)
 
-As informações do produto refletem o site oficial em 3 de novembro de 2026. Antes de comprar, consulte o painel e os termos atuais.
+Os preços e os limites da conta foram atualizados em 18 de novembro de 2026. Antes de comprar, consulte o painel e os termos atuais.
 
 ## O que é a Rate Cloud?
 

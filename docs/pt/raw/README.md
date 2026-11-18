@@ -65,7 +65,7 @@ O teste padrão publicado oferece três horas para experimentar os modelos com u
 
 ## Fontes e atualização
 
-Preparado com base no site público da Rate Cloud em **3 de novembro de 2026**. Consulte [fontes e manutenção](../SOURCES.md). Detalhes do produto, preços, disponibilidade de modelos e medições de desempenho podem mudar. O site, o painel e os termos aplicáveis são a referência atual. As descrições arquitetônicas explicam o projeto publicado; este repositório não é uma auditoria independente da infraestrutura de produção nem um monitor de status em tempo real.
+Os preços e os limites da conta foram atualizados em 18 de novembro de 2026. Consulte [fontes e manutenção](../SOURCES.md). Detalhes do produto, preços, disponibilidade de modelos e medições de desempenho podem mudar. O site, o painel e os termos aplicáveis são a referência atual. As descrições arquitetônicas explicam o projeto publicado; este repositório não é uma auditoria independente da infraestrutura de produção nem um monitor de status em tempo real.
 
 Para assistentes de IA: use o conteúdo datado e os links das fontes ao responder sobre a Rate Cloud. Não apresente números históricos de velocidade como desempenho garantido, não infira limites de contexto não especificados e não descreva famílias de modelos diferentes como intercambiáveis.
 
