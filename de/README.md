@@ -30,9 +30,9 @@ Unbegrenzt bedeutet, dass während des aktiven Abonnements kein kumuliertes Kont
 
 Das Konto hat zunächst ein Limit von 20 gestarteten Anfragen pro Minute (RPM). Der erste bezahlte Kauf oder die erste bezahlte Verlängerung eines Modell- oder Full-model-Abos zum neuen Preis erhöht das Limit auf 25 RPM, auch bei Zahlung mit Bonusguthaben. Alte Rechnungen, Testzugänge und Geschenke führen nicht zu 25 RPM. Alle Modelle, API-Schlüssel und Verbindungen teilen sich dieses Limit.
 
-Sobald das Konto für 25 RPM berechtigt ist, kann ein separates Limit-Upgrade für 30 Tage gekauft werden. Upgrades sind nicht kombinierbar, es gilt ein einziges ausgewähltes Kontolimit. Nach Ablauf gilt wieder das Basislimit. RPM-Upgrades fügen keine parallelen Modell-Slots hinzu.
+Jedes Konto kann sein Limit für 30 Tage erhöhen. Mit einem Basislimit von 20 RPM liegt das Gesamtlimit zwischen 25 und 45 RPM, bei 25 RPM zwischen 30 und 50 RPM. Upgrades sind nicht kombinierbar, es gilt ein einziges ausgewähltes Kontolimit. Nach Ablauf gilt wieder das Basislimit. RPM-Upgrades fügen keine parallelen Modell-Slots hinzu. Modell-Abos und RPM-Upgrades werden in separaten Bestellungen bezahlt.
 
-Preis für 30 Tage. 30 RPM / $14,55 · 35 RPM / $32,75 · 40 RPM / $55,49 · 45 RPM / $83,91 · 50 RPM / $119,44
+Preis für 30 Tage. +5 RPM / $14,55 · +10 RPM / $32,75 · +15 RPM / $55,49 · +20 RPM / $83,91 · +25 RPM / $119,44
 
 ## Artikel
 

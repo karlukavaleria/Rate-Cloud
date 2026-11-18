@@ -34,9 +34,9 @@ Unlimited means no cumulative input or output token quota during the active subs
 
 The account starts with a limit of 20 requests started per minute (RPM). The first paid purchase or renewal of a model or Full model subscription at the new price raises it to 25 RPM, including purchases paid with bonuses. Old invoices, trials, and gifts do not qualify for 25 RPM. All models, API keys, and connections share this limit.
 
-Once the account qualifies for 25 RPM, it can buy a separate 30-day limit upgrade. Upgrades do not stack, and only one selected account limit applies. When the upgrade expires, the account returns to its base limit. RPM upgrades do not add model concurrency slots.
+Any account can buy a 30-day limit upgrade. A base of 20 RPM gives total limits from 25 to 45 RPM, and a base of 25 RPM gives total limits from 30 to 50 RPM. Upgrades do not stack, and only one selected account limit applies. When the upgrade expires, the account returns to its base limit. RPM upgrades do not add model concurrency slots. Model subscriptions and RPM upgrades are paid for in separate orders.
 
-Price for 30 days. 30 RPM / $14.55 · 35 RPM / $32.75 · 40 RPM / $55.49 · 45 RPM / $83.91 · 50 RPM / $119.44
+Price for 30 days. +5 RPM / $14.55 · +10 RPM / $32.75 · +15 RPM / $55.49 · +20 RPM / $83.91 · +25 RPM / $119.44
 
 ## Read the articles
 

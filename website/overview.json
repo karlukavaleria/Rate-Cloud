@@ -41,8 +41,8 @@
     "full_model_link": "Plan details and current prices",
     "rpm_title": "Account rate limits",
     "rpm_rule": "The account starts with a limit of 20 requests started per minute (RPM). The first paid purchase or renewal of a model or Full model subscription at the new price raises it to 25 RPM, including purchases paid with bonuses. Old invoices, trials, and gifts do not qualify for 25 RPM. All models, API keys, and connections share this limit.",
-    "rpm_addon": "Once the account qualifies for 25 RPM, it can buy a separate 30-day limit upgrade. Upgrades do not stack, and only one selected account limit applies. When the upgrade expires, the account returns to its base limit. RPM upgrades do not add model concurrency slots.",
-    "rpm_prices": "Price for 30 days. 30 RPM / $14.55 · 35 RPM / $32.75 · 40 RPM / $55.49 · 45 RPM / $83.91 · 50 RPM / $119.44"
+    "rpm_addon": "Any account can buy a 30-day limit upgrade. A base of 20 RPM gives total limits from 25 to 45 RPM, and a base of 25 RPM gives total limits from 30 to 50 RPM. Upgrades do not stack, and only one selected account limit applies. When the upgrade expires, the account returns to its base limit. RPM upgrades do not add model concurrency slots. Model subscriptions and RPM upgrades are paid for in separate orders.",
+    "rpm_prices": "Price for 30 days. +5 RPM / $14.55 · +10 RPM / $32.75 · +15 RPM / $55.49 · +20 RPM / $83.91 · +25 RPM / $119.44"
   },
   "ru": {
     "eyebrow": "ОБЗОР ПРОДУКТА",
@@ -86,8 +86,8 @@
     "full_model_link": "Состав пакета и актуальные цены",
     "rpm_title": "Лимит запросов аккаунта",
     "rpm_rule": "Базовый лимит аккаунта составляет 20 начатых запросов в минуту (RPM). Первая оплаченная покупка или продление подписки на модель или Full model по новому тарифу повышает его до 25 RPM, включая оплату бонусами. Старые счета, пробный и подарочный доступ не дают 25 RPM. Лимит общий для всех моделей, API-ключей и подключений.",
-    "rpm_addon": "После перехода на 25 RPM можно купить отдельное повышение лимита на 30 дней. Пакеты не суммируются, действует один выбранный общий лимит. Когда пакет истекает, возвращается базовый лимит аккаунта. Пакет RPM не добавляет параллельных слотов моделей.",
-    "rpm_prices": "Стоимость на 30 дней. 30 RPM / 1 200 ₽ · 35 RPM / 2 700 ₽ · 40 RPM / 4 575 ₽ · 45 RPM / 6 918,75 ₽ · 50 RPM / 9 848,44 ₽"
+    "rpm_addon": "Повышение лимита на 30 дней доступно любому аккаунту. При базовом лимите 20 RPM общий лимит составит от 25 до 45 RPM, при базовом лимите 25 RPM от 30 до 50 RPM. Пакеты не суммируются, действует один выбранный общий лимит. Когда пакет истекает, возвращается базовый лимит аккаунта. Пакет RPM не добавляет параллельных слотов моделей. Подписки на модели и RPM оплачиваются отдельными заказами.",
+    "rpm_prices": "Стоимость на 30 дней. +5 RPM / 1 200 ₽ · +10 RPM / 2 700 ₽ · +15 RPM / 4 575 ₽ · +20 RPM / 6 918,75 ₽ · +25 RPM / 9 848,44 ₽"
   },
   "es": {
     "eyebrow": "RESUMEN DEL PRODUCTO",
@@ -131,8 +131,8 @@
     "full_model_link": "Detalles del plan y precios actuales",
     "rpm_title": "Límite de solicitudes de la cuenta",
     "rpm_rule": "El límite inicial de la cuenta es de 20 solicitudes iniciadas por minuto (RPM). La primera compra o renovación pagada de una suscripción de modelo o Full model con la nueva tarifa lo sube a 25 RPM, también si se paga con bonos. Las facturas antiguas, las pruebas y los accesos de regalo no habilitan los 25 RPM. Todos los modelos, claves API y conexiones comparten este límite.",
-    "rpm_addon": "Una vez habilitados los 25 RPM, puedes comprar por separado un aumento del límite de 30 días. Los aumentos no se acumulan y solo se aplica un límite para la cuenta. Al vencer el aumento, vuelve a aplicarse el límite base. Los aumentos de RPM no añaden plazas de concurrencia a los modelos.",
-    "rpm_prices": "Precio por 30 días. 30 RPM / $14,55 · 35 RPM / $32,75 · 40 RPM / $55,49 · 45 RPM / $83,91 · 50 RPM / $119,44"
+    "rpm_addon": "Cualquier cuenta puede comprar un aumento del límite por 30 días. Con un límite base de 20 RPM, el límite total va de 25 a 45 RPM. Con una base de 25 RPM, va de 30 a 50 RPM. Los aumentos no se acumulan y solo se aplica un límite para la cuenta. Al vencer el aumento, vuelve a aplicarse el límite base. Los aumentos de RPM no añaden plazas de concurrencia a los modelos. Las suscripciones a modelos y los aumentos de RPM se pagan en pedidos separados.",
+    "rpm_prices": "Precio por 30 días. +5 RPM / $14,55 · +10 RPM / $32,75 · +15 RPM / $55,49 · +20 RPM / $83,91 · +25 RPM / $119,44"
   },
   "pt": {
     "eyebrow": "VISÃO GERAL DO PRODUTO",
@@ -176,8 +176,8 @@
     "full_model_link": "Detalhes do plano e preços atuais",
     "rpm_title": "Limite de solicitações da conta",
     "rpm_rule": "O limite inicial da conta é de 20 pedidos iniciados por minuto (RPM). A primeira compra ou renovação paga de uma subscrição de modelo ou Full model ao novo preço aumenta o limite para 25 RPM, incluindo pagamentos com bónus. Faturas antigas, testes e ofertas não dão acesso a 25 RPM. Todos os modelos, chaves API e ligações partilham este limite.",
-    "rpm_addon": "Depois de obter 25 RPM, pode comprar em separado um aumento de limite por 30 dias. Os aumentos não são cumulativos e aplica-se apenas um limite de conta. Quando terminar, volta a aplicar-se o limite base. Os aumentos de RPM não acrescentam lugares de execução em paralelo aos modelos.",
-    "rpm_prices": "Preço por 30 dias. 30 RPM / $14,55 · 35 RPM / $32,75 · 40 RPM / $55,49 · 45 RPM / $83,91 · 50 RPM / $119,44"
+    "rpm_addon": "Qualquer conta pode comprar um aumento do limite por 30 dias. Com uma base de 20 RPM, o limite total fica entre 25 e 45 RPM. Com uma base de 25 RPM, fica entre 30 e 50 RPM. Os aumentos não são cumulativos e aplica-se apenas um limite de conta. Quando terminar, volta a aplicar-se o limite base. Os aumentos de RPM não acrescentam lugares de execução em paralelo aos modelos. As subscrições de modelos e os aumentos de RPM são pagos em pedidos separados.",
+    "rpm_prices": "Preço por 30 dias. +5 RPM / $14,55 · +10 RPM / $32,75 · +15 RPM / $55,49 · +20 RPM / $83,91 · +25 RPM / $119,44"
   },
   "de": {
     "eyebrow": "PRODUKTÜBERSICHT",
@@ -221,8 +221,8 @@
     "full_model_link": "Plandetails und aktuelle Preise",
     "rpm_title": "Anfragelimit für das Konto",
     "rpm_rule": "Das Konto hat zunächst ein Limit von 20 gestarteten Anfragen pro Minute (RPM). Der erste bezahlte Kauf oder die erste bezahlte Verlängerung eines Modell- oder Full-model-Abos zum neuen Preis erhöht das Limit auf 25 RPM, auch bei Zahlung mit Bonusguthaben. Alte Rechnungen, Testzugänge und Geschenke führen nicht zu 25 RPM. Alle Modelle, API-Schlüssel und Verbindungen teilen sich dieses Limit.",
-    "rpm_addon": "Sobald das Konto für 25 RPM berechtigt ist, kann ein separates Limit-Upgrade für 30 Tage gekauft werden. Upgrades sind nicht kombinierbar, es gilt ein einziges ausgewähltes Kontolimit. Nach Ablauf gilt wieder das Basislimit. RPM-Upgrades fügen keine parallelen Modell-Slots hinzu.",
-    "rpm_prices": "Preis für 30 Tage. 30 RPM / $14,55 · 35 RPM / $32,75 · 40 RPM / $55,49 · 45 RPM / $83,91 · 50 RPM / $119,44"
+    "rpm_addon": "Jedes Konto kann sein Limit für 30 Tage erhöhen. Mit einem Basislimit von 20 RPM liegt das Gesamtlimit zwischen 25 und 45 RPM, bei 25 RPM zwischen 30 und 50 RPM. Upgrades sind nicht kombinierbar, es gilt ein einziges ausgewähltes Kontolimit. Nach Ablauf gilt wieder das Basislimit. RPM-Upgrades fügen keine parallelen Modell-Slots hinzu. Modell-Abos und RPM-Upgrades werden in separaten Bestellungen bezahlt.",
+    "rpm_prices": "Preis für 30 Tage. +5 RPM / $14,55 · +10 RPM / $32,75 · +15 RPM / $55,49 · +20 RPM / $83,91 · +25 RPM / $119,44"
   },
   "fr": {
     "eyebrow": "APERÇU DU PRODUIT",
@@ -266,7 +266,7 @@
     "full_model_link": "Détails du forfait et tarifs actuels",
     "rpm_title": "Limite de requêtes du compte",
     "rpm_rule": "Le compte dispose initialement de 20 requêtes lancées par minute (RPM). Le premier achat ou renouvellement payé d’un abonnement de modèle ou Full model au nouveau tarif porte la limite à 25 RPM, y compris avec des crédits bonus. Les anciennes factures, les essais et les accès offerts ne donnent pas droit à 25 RPM. Tous les modèles, clés API et connexions partagent cette limite.",
-    "rpm_addon": "Une fois les 25 RPM obtenues, vous pouvez acheter séparément une hausse du plafond pendant 30 jours. Les hausses ne se cumulent pas et une seule limite s’applique au compte. À l’expiration, le compte revient à sa limite de base. Une hausse de RPM n’ajoute pas de créneaux de traitement en parallèle aux modèles.",
-    "rpm_prices": "Prix pour 30 jours. 30 RPM / $14,55 · 35 RPM / $32,75 · 40 RPM / $55,49 · 45 RPM / $83,91 · 50 RPM / $119,44"
+    "rpm_addon": "Chaque compte peut acheter une hausse du plafond durant 30 jours. Avec une base de 20 RPM, le plafond total va de 25 à 45 RPM. Avec une base de 25 RPM, il va de 30 à 50 RPM. Les hausses ne se cumulent pas et une seule limite s’applique au compte. À l’expiration, le compte revient à sa limite de base. Une hausse de RPM n’ajoute pas de créneaux de traitement en parallèle aux modèles. Les abonnements aux modèles et les hausses de RPM se paient dans des commandes séparées.",
+    "rpm_prices": "Prix pour 30 jours. +5 RPM / $14,55 · +10 RPM / $32,75 · +15 RPM / $55,49 · +20 RPM / $83,91 · +25 RPM / $119,44"
   }
 }

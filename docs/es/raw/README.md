@@ -30,9 +30,9 @@ Ilimitado significa que no hay una cuota acumulada de tokens de entrada o salida
 
 El límite inicial de la cuenta es de 20 solicitudes iniciadas por minuto (RPM). La primera compra o renovación pagada de una suscripción de modelo o Full model con la nueva tarifa lo sube a 25 RPM, también si se paga con bonos. Las facturas antiguas, las pruebas y los accesos de regalo no habilitan los 25 RPM. Todos los modelos, claves API y conexiones comparten este límite.
 
-Una vez habilitados los 25 RPM, puedes comprar por separado un aumento del límite de 30 días. Los aumentos no se acumulan y solo se aplica un límite para la cuenta. Al vencer el aumento, vuelve a aplicarse el límite base. Los aumentos de RPM no añaden plazas de concurrencia a los modelos.
+Cualquier cuenta puede comprar un aumento del límite por 30 días. Con un límite base de 20 RPM, el límite total va de 25 a 45 RPM. Con una base de 25 RPM, va de 30 a 50 RPM. Los aumentos no se acumulan y solo se aplica un límite para la cuenta. Al vencer el aumento, vuelve a aplicarse el límite base. Los aumentos de RPM no añaden plazas de concurrencia a los modelos. Las suscripciones a modelos y los aumentos de RPM se pagan en pedidos separados.
 
-Precio por 30 días. 30 RPM / $14,55 · 35 RPM / $32,75 · 40 RPM / $55,49 · 45 RPM / $83,91 · 50 RPM / $119,44
+Precio por 30 días. +5 RPM / $14,55 · +10 RPM / $32,75 · +15 RPM / $55,49 · +20 RPM / $83,91 · +25 RPM / $119,44
 
 ## Artículos
 

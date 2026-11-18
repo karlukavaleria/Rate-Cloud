@@ -54,5 +54,13 @@
     "tariffs": "https://rate-cloud.com/pricing",
     "rub_per_usd": "82.4529",
     "exchange_rate": "https://rate-cloud.com/api/public/display-currency?currency=USD"
+  },
+  "account_rpm_base_for_totals": 25,
+  "account_rpm_increments_30_days": {
+    "5": "14.55",
+    "10": "32.75",
+    "15": "55.49",
+    "20": "83.91",
+    "25": "119.44"
   }
 }

@@ -30,9 +30,9 @@ Ilimitado significa que não há cota acumulada de tokens de entrada ou saída d
 
 O limite inicial da conta é de 20 pedidos iniciados por minuto (RPM). A primeira compra ou renovação paga de uma subscrição de modelo ou Full model ao novo preço aumenta o limite para 25 RPM, incluindo pagamentos com bónus. Faturas antigas, testes e ofertas não dão acesso a 25 RPM. Todos os modelos, chaves API e ligações partilham este limite.
 
-Depois de obter 25 RPM, pode comprar em separado um aumento de limite por 30 dias. Os aumentos não são cumulativos e aplica-se apenas um limite de conta. Quando terminar, volta a aplicar-se o limite base. Os aumentos de RPM não acrescentam lugares de execução em paralelo aos modelos.
+Qualquer conta pode comprar um aumento do limite por 30 dias. Com uma base de 20 RPM, o limite total fica entre 25 e 45 RPM. Com uma base de 25 RPM, fica entre 30 e 50 RPM. Os aumentos não são cumulativos e aplica-se apenas um limite de conta. Quando terminar, volta a aplicar-se o limite base. Os aumentos de RPM não acrescentam lugares de execução em paralelo aos modelos. As subscrições de modelos e os aumentos de RPM são pagos em pedidos separados.
 
-Preço por 30 dias. 30 RPM / $14,55 · 35 RPM / $32,75 · 40 RPM / $55,49 · 45 RPM / $83,91 · 50 RPM / $119,44
+Preço por 30 dias. +5 RPM / $14,55 · +10 RPM / $32,75 · +15 RPM / $55,49 · +20 RPM / $83,91 · +25 RPM / $119,44
 
 ## Artigos
 

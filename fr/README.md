@@ -29,9 +29,9 @@ Illimité signifie qu’aucun quota cumulé de tokens en entrée ou en sortie ne
 
 Le compte dispose initialement de 20 requêtes lancées par minute (RPM). Le premier achat ou renouvellement payé d’un abonnement de modèle ou Full model au nouveau tarif porte la limite à 25 RPM, y compris avec des crédits bonus. Les anciennes factures, les essais et les accès offerts ne donnent pas droit à 25 RPM. Tous les modèles, clés API et connexions partagent cette limite.
 
-Une fois les 25 RPM obtenues, vous pouvez acheter séparément une hausse du plafond pendant 30 jours. Les hausses ne se cumulent pas et une seule limite s’applique au compte. À l’expiration, le compte revient à sa limite de base. Une hausse de RPM n’ajoute pas de créneaux de traitement en parallèle aux modèles.
+Chaque compte peut acheter une hausse du plafond durant 30 jours. Avec une base de 20 RPM, le plafond total va de 25 à 45 RPM. Avec une base de 25 RPM, il va de 30 à 50 RPM. Les hausses ne se cumulent pas et une seule limite s’applique au compte. À l’expiration, le compte revient à sa limite de base. Une hausse de RPM n’ajoute pas de créneaux de traitement en parallèle aux modèles. Les abonnements aux modèles et les hausses de RPM se paient dans des commandes séparées.
 
-Prix pour 30 jours. 30 RPM / $14,55 · 35 RPM / $32,75 · 40 RPM / $55,49 · 45 RPM / $83,91 · 50 RPM / $119,44
+Prix pour 30 jours. +5 RPM / $14,55 · +10 RPM / $32,75 · +15 RPM / $55,49 · +20 RPM / $83,91 · +25 RPM / $119,44
 
 ## Articles
 
