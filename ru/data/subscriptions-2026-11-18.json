@@ -1,0 +1,58 @@
+{
+  "checked_date": "2026-11-18",
+  "currency": "RUB",
+  "models": [
+    {
+      "id": "glm-5.3",
+      "periods": {
+        "3": "1128.00",
+        "7": "1880.00",
+        "30": "3759.00"
+      }
+    },
+    {
+      "id": "glm-5.3-flash",
+      "periods": {
+        "3": "880.00",
+        "7": "1466.00",
+        "30": "2931.00"
+      }
+    },
+    {
+      "id": "deepseek-v4.1-flash",
+      "periods": {
+        "3": "953.00",
+        "7": "1588.00",
+        "30": "3175.00"
+      }
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "periods": {
+        "3": "804.00",
+        "7": "1340.00",
+        "30": "2679.00"
+      }
+    },
+    {
+      "id": "qwen-3.8-max",
+      "periods": {
+        "3": "995.00",
+        "7": "1658.00",
+        "30": "3315.00"
+      }
+    }
+  ],
+  "account_rpm_30_days": {
+    "30": "1200.00",
+    "35": "2700.00",
+    "40": "4575.00",
+    "45": "6918.75",
+    "50": "9848.44"
+  },
+  "provenance": {
+    "tariffs": "https://rate-cloud.com/pricing",
+    "rub_per_usd": "82.4529",
+    "exchange_rate": "https://rate-cloud.com/api/public/display-currency?currency=USD"
+  }
+}

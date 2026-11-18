@@ -120,24 +120,24 @@ def main():
         'qwen-3.8-max':('13.0-13.5','59.0-63.4'),
     }
     assert {model:(row['time_to_first_text_seconds'],row['output_generation_tokens_per_second']) for model,row in measurements.items()}==expected_measurements,'Current performance CSV values'
-    rub_data=json.loads((ROOT/'ru/data/subscriptions-2026-11-03.json').read_text())
-    usd_data=json.loads((ROOT/'data/subscriptions-2026-11-03.json').read_text())
+    rub_data=json.loads((ROOT/'ru/data/subscriptions-2026-11-18.json').read_text())
+    usd_data=json.loads((ROOT/'data/subscriptions-2026-11-18.json').read_text())
     assert rub_data['currency']=='RUB' and usd_data['currency']=='USD'
     # Observed public homepage dialog amounts, ordered as 3/7/30 days.
     observed={
-        'glm-5.3':['835.20','1392.00','2784.00'],
-        'glm-5.3-flash':['732.60','1221.00','2442.00'],
-        'deepseek-v4.1-flash':['732.60','1221.00','2442.00'],
-        'deepseek-v4-pro':['669.60','1116.00','2232.00'],
-        'qwen-3.8-max':['765.00','1275.00','2550.00'],
+        'glm-5.3':['1128.00','1880.00','3759.00'],
+        'glm-5.3-flash':['880.00','1466.00','2931.00'],
+        'deepseek-v4.1-flash':['953.00','1588.00','3175.00'],
+        'deepseek-v4-pro':['804.00','1340.00','2679.00'],
+        'qwen-3.8-max':['995.00','1658.00','3315.00'],
     }
-    observed_usd_monthly=['34.38','30.16','30.16','27.56','31.49']
+    observed_usd_monthly=['45.59','35.55','38.51','32.49','40.20']
     for index,(rub,usd) in enumerate(zip(rub_data['models'],usd_data['models'])):
         assert rub['id']==usd['id']
         assert [rub['periods'][period] for period in ['3','7','30']]==observed[rub['id']]
         assert usd['periods']['30']==observed_usd_monthly[index]
         for period in ['3','7']:
-            expected=(Decimal(rub['periods'][period])/Decimal('80.9734')).quantize(Decimal('.01'),rounding=ROUND_HALF_UP)
+            expected=(Decimal(rub['periods'][period])/Decimal('82.4529')).quantize(Decimal('.01'),rounding=ROUND_HALF_UP)
             assert Decimal(usd['periods'][period])==expected
     labels=json.loads((ROOT/'website/overview.json').read_text())
     order=['glm-5.3','glm-5.3-flash','deepseek-v4.1-flash','deepseek-v4-pro','qwen-3.8-max']
@@ -148,7 +148,7 @@ def main():
         assert re.match(r'\s*<section class="product-overview"',after_hero),(locale,'product is second screen')
         cards=re.findall(r'<article class="model-card" data-model="([^"]+)">(.*?)</article>',text,re.S)
         assert [model for model,body in cards]==order,(locale,'five models')
-        dataset=ROOT/('ru/data/subscriptions-2026-11-03.json' if locale=='ru' else 'data/subscriptions-2026-11-03.json')
+        dataset=ROOT/('ru/data/subscriptions-2026-11-18.json' if locale=='ru' else 'data/subscriptions-2026-11-18.json')
         prices={row['id']:row['periods'] for row in json.loads(dataset.read_text())['models']}
         source=ROOT/('README.md' if locale=='en' else locale+'/README.md')
         raw_home=source.read_text()
@@ -176,6 +176,7 @@ def main():
         assert labels[locale]['full_model_prices'] in full_panel,(locale,'Full model price and discount terms')
         assert labels[locale]['full_model_slots'] in full_panel,(locale,'Full model slot, stacking, and renewal terms')
         assert labels[locale]['full_model_link'] in full_panel,(locale,'Full model pricing link')
+        assert all(html.escape(labels[locale][key], quote=True) in text for key in ('rpm_title','rpm_rule','rpm_addon','rpm_prices')),(locale,'account RPM terms and prices')
         trial=re.search(r'<aside class="trial-panel">(.*?)</aside>',text,re.S).group(1)
         assert 'https://rate-cloud.com/register' in trial,(locale,'trial registration')
         assert 'models-and-plans' in pages[home].ids,(locale,'product anchor')

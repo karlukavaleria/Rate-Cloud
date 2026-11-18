@@ -1,0 +1,58 @@
+{
+  "checked_date": "2026-11-18",
+  "currency": "USD",
+  "models": [
+    {
+      "id": "glm-5.3",
+      "periods": {
+        "3": "13.68",
+        "7": "22.80",
+        "30": "45.59"
+      }
+    },
+    {
+      "id": "glm-5.3-flash",
+      "periods": {
+        "3": "10.67",
+        "7": "17.78",
+        "30": "35.55"
+      }
+    },
+    {
+      "id": "deepseek-v4.1-flash",
+      "periods": {
+        "3": "11.56",
+        "7": "19.26",
+        "30": "38.51"
+      }
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "periods": {
+        "3": "9.75",
+        "7": "16.25",
+        "30": "32.49"
+      }
+    },
+    {
+      "id": "qwen-3.8-max",
+      "periods": {
+        "3": "12.07",
+        "7": "20.11",
+        "30": "40.20"
+      }
+    }
+  ],
+  "account_rpm_30_days": {
+    "30": "14.55",
+    "35": "32.75",
+    "40": "55.49",
+    "45": "83.91",
+    "50": "119.44"
+  },
+  "provenance": {
+    "tariffs": "https://rate-cloud.com/pricing",
+    "rub_per_usd": "82.4529",
+    "exchange_rate": "https://rate-cloud.com/api/public/display-currency?currency=USD"
+  }
+}

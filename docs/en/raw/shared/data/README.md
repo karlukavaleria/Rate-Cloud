@@ -7,3 +7,5 @@
 - [Offline calculator](../tools/compare_costs.py): 80% input / 20% output scenarios with dated USD subscription display prices and an optional input-cache-hit share. No network calls or credentials. Cache writes, tools, tax, batch rates, and special long-context tiers are excluded.
 
 Use the [cost comparison](../articles/08-cost-and-service-comparison.md) for assumptions, applicability, and caveats. A cost scenario is not a promise that a subscription can process that volume within its term.
+
+- [Subscription and RPM price snapshot for November 18](subscriptions-2026-11-18.json). USD prices use the dated public exchange rate.

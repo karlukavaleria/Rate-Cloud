@@ -40,7 +40,8 @@
 - [French overview](fr/README.md)
 - [Official API cost comparison](articles/08-cost-and-service-comparison.md)
 - [20 unlimited-token workflows](articles/09-unlimited-use-cases.md)
-- [Dated subscriptions dataset](data/subscriptions-2026-11-03.json): model-specific 3-, 7-, and 30-day USD display prices checked November 3, 2026. Three- and seven-day values are converted from the public subscription dialog using the dated public display-currency API rate; 30-day USD values come from that API. Confirm current displayed prices.
+- Accounts start at 20 RPM. A paid model or Full model purchase or renewal at the new tariff raises the base to 25 RPM. Eligible accounts can buy one 30-day account limit of 30, 35, 40, 45 or 50 RPM without changing model slots.
+- [Rates checked on November 18, 2026](data/subscriptions-2026-11-18.json): USD display amounts for model subscriptions and account RPM upgrades. Check the current total before paying.
 - [Performance and pricing datasets](data/README.md)
 
 ## Interpretation

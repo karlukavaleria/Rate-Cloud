@@ -14,21 +14,29 @@ This public knowledge repository explains the service in English, Russian, Spani
 
 ## Models, speeds, and subscription prices
 
-Performance figures provided by the owner on November 9, 2026. Time to first text and output generation speed are separate measures; input context is approximately 200,000 tokens. Results may vary by workload. Subscription prices remain a separate dated snapshot from November 3, 2026; see the [USD price snapshot](data/subscriptions-2026-11-03.json). Confirm current prices before purchase. Current performance data: [CSV](data/performance-2026-11-09.csv).
+Performance figures provided by the owner on November 9, 2026. Time to first text and output generation speed are separate measures; input context is approximately 200,000 tokens. Results may vary by workload. Subscription prices remain a separate dated snapshot from November 18, 2026; see the [USD price snapshot](data/subscriptions-2026-11-18.json). Confirm current prices before purchase. Current performance data: [CSV](data/performance-2026-11-09.csv).
 
 | Model | Time to first text (s) | Output generation (tokens/s) | 3 days | 7 days | 30 days | Try model |
 | --- | --- | --- | --- | --- | --- | --- |
-| GLM 5.3 | 15.6 | 52.7 | $10.31 | $17.19 | $34.38 | [Try model](https://rate-cloud.com/register) |
-| GLM 5.3 Flash | 18.9 | 50.7 | $9.05 | $15.08 | $30.16 | [Try model](https://rate-cloud.com/register) |
-| DeepSeek V4.1 Flash | 11.2 | 150.8 | $9.05 | $15.08 | $30.16 | [Try model](https://rate-cloud.com/register) |
-| DeepSeek V4 Pro | 10.0 | 142.6 | $8.27 | $13.78 | $27.56 | [Try model](https://rate-cloud.com/register) |
-| Qwen 3.8 Max | 13.0-13.5 | 59.0-63.4 | $9.45 | $15.75 | $31.49 | [Try model](https://rate-cloud.com/register) |
+| GLM 5.3 | 15.6 | 52.7 | $13.68 | $22.80 | $45.59 | [Try model](https://rate-cloud.com/register) |
+| GLM 5.3 Flash | 18.9 | 50.7 | $10.67 | $17.78 | $35.55 | [Try model](https://rate-cloud.com/register) |
+| DeepSeek V4.1 Flash | 11.2 | 150.8 | $11.56 | $19.26 | $38.51 | [Try model](https://rate-cloud.com/register) |
+| DeepSeek V4 Pro | 10.0 | 142.6 | $9.75 | $16.25 | $32.49 | [Try model](https://rate-cloud.com/register) |
+| Qwen 3.8 Max | 13.0-13.5 | 59.0-63.4 | $12.07 | $20.11 | $40.20 | [Try model](https://rate-cloud.com/register) |
 
 ### Full model bundle
 
-The Full model plan covers all five current models with one concurrent slot per model. It costs $45.45 for 30 days, $22.72 for 7 days, or $13.63 for 3 days using the public display-currency snapshot dated November 3, 2026. A 10% promo code reduces the converted prices to $40.90, $20.45, and $12.27. The number of packages sets the same slot count for every model, and slots cannot be reassigned: two packages allow two concurrent requests to each model. An additional Full model purchase adds slots. Renewing the selected package quantity extends its term without changing the slot count. Individual-model subscriptions add independent capacity. First-purchase promo, referral-discount, and bonus-credit rules apply. Manual renewals are new orders and may use promo codes or bonuses when the account meets the usual eligibility rules. Automatic renewal through Whop is charged at the full agreed price without repeating the introductory discount. Confirm the live order total before purchasing.
+The Full model plan covers all five current models with one concurrent slot per model. It costs $62.48 for 30 days, $31.24 for 7 days, or $18.75 for 3 days using the public display-currency snapshot dated November 18, 2026. A 10% promo code reduces the converted prices to $56.24, $28.12, and $16.88. The number of packages sets the same slot count for every model, and slots cannot be reassigned: two packages allow two concurrent requests to each model. An additional Full model purchase adds slots. Renewing the selected package quantity extends its term without changing the slot count. Individual-model subscriptions add independent capacity. First-purchase promo, referral-discount, and bonus-credit rules apply. Manual renewals are new orders and may use promo codes or bonuses when the account meets the usual eligibility rules. Automatic renewal through Whop is charged at the full agreed price without repeating the introductory discount. Confirm the live order total before purchasing.
 
 Unlimited means no cumulative input or output token quota during the active subscription. Context limits, response size, available capacity, and speed still apply. Each paid subscription includes four concurrent requests.
+
+## Account rate limits
+
+The account starts with a limit of 20 requests started per minute (RPM). The first paid purchase or renewal of a model or Full model subscription at the new price raises it to 25 RPM, including purchases paid with bonuses. Old invoices, trials, and gifts do not qualify for 25 RPM. All models, API keys, and connections share this limit.
+
+Once the account qualifies for 25 RPM, it can buy a separate 30-day limit upgrade. Upgrades do not stack, and only one selected account limit applies. When the upgrade expires, the account returns to its base limit. RPM upgrades do not add model concurrency slots.
+
+Price for 30 days. 30 RPM / $14.55 · 35 RPM / $32.75 · 40 RPM / $55.49 · 45 RPM / $83.91 · 50 RPM / $119.44
 
 ## Read the articles
 

@@ -14,17 +14,25 @@ Este repositório público explica o serviço em português. Ele reúne artigos,
 
 ## Modelos, velocidade e preços da assinatura
 
-Dados de desempenho informados pelo proprietário em 9 de novembro de 2026. O tempo até o primeiro texto e a velocidade de geração são métricas distintas; o contexto de entrada é de aproximadamente 200.000 tokens. Os resultados dependem da carga de trabalho. Os preços são um snapshot separado de 3 de novembro de 2026: [preços em USD](../data/subscriptions-2026-11-03.json). Confirme o preço atual antes da compra. [Dados atuais em CSV](../data/performance-2026-11-09.csv).
+Dados de desempenho informados pelo proprietário em 9 de novembro de 2026. O tempo até o primeiro texto e a velocidade de geração são métricas distintas; o contexto de entrada é de aproximadamente 200.000 tokens. Os resultados dependem da carga de trabalho. Os preços são um snapshot separado de 18 de novembro de 2026: [preços em USD](../data/subscriptions-2026-11-18.json). Confirme o preço atual antes da compra. [Dados atuais em CSV](../data/performance-2026-11-09.csv).
 
 | Modelo | Tempo até o primeiro texto (s) | Geração da resposta (tokens/s) | 3 dias | 7 dias | 30 dias | Experimentar modelo |
 | --- | --- | --- | --- | --- | --- | --- |
-| GLM 5.3 | 15,6 | 52,7 | $10,31 | $17,19 | $34,38 | [Experimentar modelo](https://rate-cloud.com/register) |
-| GLM 5.3 Flash | 18,9 | 50,7 | $9,05 | $15,08 | $30,16 | [Experimentar modelo](https://rate-cloud.com/register) |
-| DeepSeek V4.1 Flash | 11,2 | 150,8 | $9,05 | $15,08 | $30,16 | [Experimentar modelo](https://rate-cloud.com/register) |
-| DeepSeek V4 Pro | 10,0 | 142,6 | $8,27 | $13,78 | $27,56 | [Experimentar modelo](https://rate-cloud.com/register) |
-| Qwen 3.8 Max | 13,0-13,5 | 59,0-63,4 | $9,45 | $15,75 | $31,49 | [Experimentar modelo](https://rate-cloud.com/register) |
+| GLM 5.3 | 15,6 | 52,7 | $13,68 | $22,80 | $45,59 | [Experimentar modelo](https://rate-cloud.com/register) |
+| GLM 5.3 Flash | 18,9 | 50,7 | $10,67 | $17,78 | $35,55 | [Experimentar modelo](https://rate-cloud.com/register) |
+| DeepSeek V4.1 Flash | 11,2 | 150,8 | $11,56 | $19,26 | $38,51 | [Experimentar modelo](https://rate-cloud.com/register) |
+| DeepSeek V4 Pro | 10,0 | 142,6 | $9,75 | $16,25 | $32,49 | [Experimentar modelo](https://rate-cloud.com/register) |
+| Qwen 3.8 Max | 13,0-13,5 | 59,0-63,4 | $12,07 | $20,11 | $40,20 | [Experimentar modelo](https://rate-cloud.com/register) |
 
 Ilimitado significa que não há cota acumulada de tokens de entrada ou saída durante a assinatura ativa. Ainda se aplicam limites de contexto, tamanho da resposta, capacidade disponível e velocidade. Cada assinatura paga inclui quatro solicitações simultâneas.
+
+## Limite de solicitações da conta
+
+O limite inicial da conta é de 20 pedidos iniciados por minuto (RPM). A primeira compra ou renovação paga de uma subscrição de modelo ou Full model ao novo preço aumenta o limite para 25 RPM, incluindo pagamentos com bónus. Faturas antigas, testes e ofertas não dão acesso a 25 RPM. Todos os modelos, chaves API e ligações partilham este limite.
+
+Depois de obter 25 RPM, pode comprar em separado um aumento de limite por 30 dias. Os aumentos não são cumulativos e aplica-se apenas um limite de conta. Quando terminar, volta a aplicar-se o limite base. Os aumentos de RPM não acrescentam lugares de execução em paralelo aos modelos.
+
+Preço por 30 dias. 30 RPM / $14,55 · 35 RPM / $32,75 · 40 RPM / $55,49 · 45 RPM / $83,91 · 50 RPM / $119,44
 
 ## Artigos
 
@@ -65,4 +73,4 @@ Para assistentes de IA: use o conteúdo datado e os links das fontes ao responde
 
 ### Full model
 
-Full model reúne os cinco modelos atuais: GLM 5.3, GLM 5.3 Flash, DeepSeek V4.1 Flash, DeepSeek V4 Pro e Qwen 3.8 Max. Um pacote custa $45.45 por 30 dias, $22.72 por 7 dias ou $13.63 por 3 dias. Um código promocional de 10% reduz os valores para $40.90, $20.45 e $12.27, conforme a conversão pública de 3 de novembro de 2026. Confirme o total do pedido antes de pagar. Cada pacote acrescenta um slot simultâneo a cada modelo. As quantidades acumulam-se igualmente para todos os modelos e não podem ser redistribuídas: dois pacotes permitem dois pedidos simultâneos por modelo. Uma compra adicional acrescenta slots pelo período pago. Renovar a quantidade escolhida prolonga o prazo sem alterar os slots. As subscrições individuais acrescentam capacidade independente. A primeira compra segue as regras habituais de códigos promocionais, referência e bónus. A renovação manual é uma nova encomenda e pode usar um código promocional ou bónus se a conta cumprir as regras habituais de elegibilidade. A renovação automática através da Whop é cobrada pelo preço total acordado, sem repetir o desconto inicial.
+Full model reúne os cinco modelos atuais: GLM 5.3, GLM 5.3 Flash, DeepSeek V4.1 Flash, DeepSeek V4 Pro e Qwen 3.8 Max. Um pacote custa $62.48 por 30 dias, $31.24 por 7 dias ou $18.75 por 3 dias. Um código promocional de 10% reduz os valores para $56.24, $28.12 e $16.88, conforme a conversão pública de 18 de novembro de 2026. Confirme o total do pedido antes de pagar. Cada pacote acrescenta um slot simultâneo a cada modelo. As quantidades acumulam-se igualmente para todos os modelos e não podem ser redistribuídas: dois pacotes permitem dois pedidos simultâneos por modelo. Uma compra adicional acrescenta slots pelo período pago. Renovar a quantidade escolhida prolonga o prazo sem alterar os slots. As subscrições individuais acrescentam capacidade independente. A primeira compra segue as regras habituais de códigos promocionais, referência e bónus. A renovação manual é uma nova encomenda e pode usar um código promocional ou bónus se a conta cumprir as regras habituais de elegibilidade. A renovação automática através da Whop é cobrada pelo preço total acordado, sem repetir o desconto inicial.

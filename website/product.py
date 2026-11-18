@@ -23,7 +23,7 @@ def number(value, lang):
 def render_product(lang, base):
     labels = json.loads((ROOT/'website/overview.json').read_text())[lang]
     rows = {row['api_id']: row for row in csv.DictReader((ROOT/'data/performance-2026-11-09.csv').open())}
-    subscription_file = ROOT/('ru/data/subscriptions-2026-11-03.json' if lang=='ru' else 'data/subscriptions-2026-11-03.json')
+    subscription_file = ROOT/('ru/data/subscriptions-2026-11-18.json' if lang=='ru' else 'data/subscriptions-2026-11-18.json')
     subscription_prices = {row['id']: row['periods'] for row in json.loads(subscription_file.read_text())['models']}
     esc = lambda value: html.escape(str(value), quote=True)
     website = 'https://rate-cloud.com/' + ('' if lang=='ru' else lang+'/')
@@ -34,7 +34,7 @@ def render_product(lang, base):
             amount = subscription_prices[model_id][str(days)]
             if lang == 'ru':
                 rub = Decimal(str(amount))
-                formatted = f'{rub:,.2f}'.replace(',', ' ').replace('.', ',')
+                formatted = f'{rub:,.0f}'.replace(',', ' ')
                 return formatted + ' ₽'
             return '$' + number(amount, lang)
         def measure(field):
@@ -58,6 +58,7 @@ def render_product(lang, base):
 <div class="unlimited-strip"><strong class="unlimited-symbol" aria-hidden="true">∞</strong><div><h3>{esc(labels['unlimited_title'])}</h3><p>{esc(labels['unlimited_text'])}</p></div><div class="product-badges">{badges}</div></div>
 <div class="model-grid">{''.join(model_cards)}</div>
 <aside class="subscription-panel full-model-panel" aria-labelledby="full-model-title"><h3 id="full-model-title">{esc(labels['full_model_title'])}</h3><p>{esc(labels['full_model_intro'])}</p><p>{esc(labels['full_model_prices'])}</p><p>{esc(labels['full_model_slots'])}</p><div class="product-actions"><a href="{website}pricing">{esc(labels['full_model_link'])} ↗</a></div></aside>
+<aside class="subscription-panel" aria-labelledby="account-rpm-title"><h3 id="account-rpm-title">{esc(labels['rpm_title'])}</h3><p>{esc(labels['rpm_rule'])}</p><p>{esc(labels['rpm_addon'])}</p><p>{esc(labels['rpm_prices'])}</p><div class="product-actions"><a href="{website}pricing">{esc(labels['pricing_link'])} ↗</a></div></aside>
 <p class="performance-note">{esc(labels['performance_note'])} <a href="{base}{lang}/articles/performance/">{esc(labels['performance_link'])} →</a></p>
 <div class="subscription-layout"><div class="subscription-panel"><h3>{esc(labels['plans_title'])}</h3><p>{esc(labels['plans_text'])}</p><div class="period-options">{periods}</div><div class="product-actions"><a href="{website}pricing">{esc(labels['pricing_link'])} ↗</a></div></div>
 <aside class="trial-panel"><strong class="trial-duration">{esc(labels['trial_duration'])}</strong><h3>{esc(labels['trial_title'])}</h3><p>{esc(labels['trial_text'])}</p><a class="button primary" href="https://rate-cloud.com/register">{esc(labels['trial_link'])} ↗</a></aside></div>
