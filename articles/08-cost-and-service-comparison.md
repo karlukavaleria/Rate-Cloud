@@ -2,6 +2,8 @@
 
 English · [Русский](../ru/articles/08-cost-and-service-comparison.md)
 
+[Current subscription prices](../README.md).
+
 **Rate Cloud's advantage is a fixed subscription price with no cumulative token quota. As usage grows, the model subscription price stays the same.** A metered API charges for each billable token. This can make sustained coding, analysis, and automation substantially cheaper on Rate Cloud, provided the workload fits its speed, concurrency, features, and availability.
 
 Rate Cloud is not automatically cheaper at light usage. Official providers offer useful cache, batch, off-peak, and other discounts. This comparison makes those tradeoffs explicit. Checked November 3, 2026; not a promise of future prices.

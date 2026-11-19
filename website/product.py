@@ -23,7 +23,7 @@ def number(value, lang):
 def render_product(lang, base):
     labels = json.loads((ROOT/'website/overview.json').read_text())[lang]
     rows = {row['api_id']: row for row in csv.DictReader((ROOT/'data/performance-2026-11-09.csv').open())}
-    subscription_file = ROOT/('ru/data/subscriptions-2026-11-18.json' if lang=='ru' else 'data/subscriptions-2026-11-18.json')
+    subscription_file = ROOT/('ru/data/subscriptions-2026-11-19.json' if lang=='ru' else 'data/subscriptions-2026-11-19.json')
     subscription_prices = {row['id']: row['periods'] for row in json.loads(subscription_file.read_text())['models']}
     esc = lambda value: html.escape(str(value), quote=True)
     website = 'https://rate-cloud.com/' + ('' if lang=='ru' else lang+'/')

@@ -2,6 +2,8 @@
 
 [English](../../articles/08-cost-and-service-comparison.md) · Deutsch · [Français](../../fr/articles/08-cost-and-service-comparison.md) · [Русский](../../ru/articles/08-cost-and-service-comparison.md)
 
+[Aktuelle Abo-Preise](../README.md).
+
 **Der Vorteil von Rate Cloud ist ein fester Abonnementpreis ohne kumulatives Tokenkontingent. Mit wachsender Nutzung bleibt der Modellpreis gleich.** Eine nutzungsabhängige API berechnet jeden abrechenbaren Token. Dadurch kann anhaltende Programmier-, Analyse- und Automatisierungsarbeit mit Rate Cloud erheblich günstiger sein, sofern Arbeitslast, Geschwindigkeit, Parallelität, Funktionen und Verfügbarkeit passen.
 
 Bei geringer Nutzung ist Rate Cloud nicht automatisch günstiger. Offizielle Anbieter bieten nützliche Cache-, Batch-, Nebenzeit- und weitere Rabatte. Dieser Vergleich macht die Abwägungen sichtbar. Geprüft am 3. November 2026; keine Preiszusage für die Zukunft.

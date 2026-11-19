@@ -2,6 +2,8 @@
 
 [English](../../articles/02-models.md) · [Deutsch](../../de/articles/02-models.md) · Français · [Русский](../../ru/articles/02-models.md)
 
+[Tarifs actuels des abonnements](../README.md).
+
 Le catalogue publié par Rate Cloud comprend cinq modèles. Chacun a son propre abonnement et un identifiant précis pour les requêtes HTTP directes. Choisissez selon le travail à effectuer, puis testez des entrées représentatives.
 
 **Full model est une offre commerciale regroupant ces cinq modèles natifs de l’API, et non un sixième modèle ou identifiant API.** Chaque pack ajoute un emplacement simultané à chacun des modèles ci-dessous. La quantité de packs s’applique également aux cinq modèles et les emplacements ne peuvent pas être réattribués : deux packs donnent deux emplacements simultanés par modèle. Consultez les [conditions et tarifs de Full model](01-about-rate-cloud.md).
@@ -10,14 +12,14 @@ Le catalogue publié par Rate Cloud comprend cinq modèles. Chacun a son propre 
 
 | Modèle | ID API direct | Positionnement principal | Image en entrée | Prix publié pour 30 jours |
 | --- | --- | --- | --- | ---: |
-| GLM 5.3 | `glm-5.3` | Développement complexe et agents autonomes | Non | $34,38 |
-| GLM 5.3 Flash | `glm-5.3-flash` | Requêtes fréquentes, programmation quotidienne, automatisation, sous-agents | Oui | $30,16 |
-| DeepSeek V4.1 Flash | `deepseek-v4.1-flash` | Agents de programmation et tâches parallèles | Oui | $30,16 |
-| DeepSeek V4 Pro | `deepseek-v4-pro` | Raisonnement en plusieurs étapes, architecture et revue de code | Non | $27,56 |
-| Qwen 3.8 Max | `qwen-3.8-max` | Grands dépôts, documents, recherche et contexte long | Non | $31,49 |
+| GLM 5.3 | `glm-5.3` | Développement complexe et agents autonomes | Non | $45,71 |
+| GLM 5.3 Flash | `glm-5.3-flash` | Requêtes fréquentes, programmation quotidienne, automatisation, sous-agents | Oui | $35,64 |
+| DeepSeek V4.1 Flash | `deepseek-v4.1-flash` | Agents de programmation et tâches parallèles | Oui | $38,61 |
+| DeepSeek V4 Pro | `deepseek-v4-pro` | Raisonnement en plusieurs étapes, architecture et revue de code | Non | $32,58 |
+| Qwen 3.8 Max | `qwen-3.8-max` | Grands dépôts, documents, recherche et contexte long | Non | $40,31 |
 
 Selon les données communiquées par le propriétaire le 9 novembre 2026, le contexte de ces modèles est d’environ 200 000 tokens. Il s’agit d’une valeur approximative ; vérifiez les limites réelles des requêtes dans la documentation actuelle.
-L’affichage en USD du site a été vérifié le 3 novembre 2026. Tarifs et fonctionnalités peuvent évoluer ; l’affichage en USD ne garantit pas un prix fixe avant le paiement. Vérifiez les conditions actuelles dans l’espace client. Chaque abonnement payant indiqué comprend quatre requêtes simultanées et aucun quota cumulé de tokens pendant sa durée. La prise en charge des images en entrée signifie que le modèle accepte des images, pas qu’il en génère.
+L’affichage en USD du site a été vérifié le 19 novembre 2026. Tarifs et fonctionnalités peuvent évoluer ; l’affichage en USD ne garantit pas un prix fixe avant le paiement. Vérifiez les conditions actuelles dans l’espace client. Chaque abonnement payant indiqué comprend quatre requêtes simultanées et aucun quota cumulé de tokens pendant sa durée. La prise en charge des images en entrée signifie que le modèle accepte des images, pas qu’il en génère.
 
 ## Choisir selon le flux de travail
 

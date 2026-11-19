@@ -2,20 +2,22 @@
 
 O catálogo publicado da Rate Cloud contém cinco modelos. Cada um tem uma assinatura separada e um identificador exato para solicitações HTTP diretas. Escolha o modelo de acordo com o trabalho e teste entradas representativas.
 
+[Preços atuais das subscrições](../README.md).
+
 **Full model é um pacote comercial que reúne estes cinco modelos nativos da API, não um sexto modelo nem um ID de API.** Cada pacote acrescenta um espaço simultâneo a cada modelo listado abaixo. A quantidade de pacotes aplica-se igualmente aos cinco modelos e os espaços não podem ser transferidos: dois pacotes oferecem dois espaços simultâneos por modelo. Consulte as [condições e preços do Full model](01-about-rate-cloud.md).
 
 ## Catálogo publicado
 
 | Modelo | ID da API direta | Foco principal | Entrada de imagem | Preço publicado por 30 dias |
 | --- | --- | --- | --- | ---: |
-| GLM 5.3 | `glm-5.3` | Desenvolvimento complexo e agentes autônomos | Não | $34,38 USD |
-| GLM 5.3 Flash | `glm-5.3-flash` | Solicitações frequentes, programação diária, automação e subagentes | Sim | $30,16 USD |
-| DeepSeek V4.1 Flash | `deepseek-v4.1-flash` | Agentes de programação e tarefas paralelas de desenvolvimento | Sim | $30,16 USD |
-| DeepSeek V4 Pro | `deepseek-v4-pro` | Raciocínio em várias etapas, arquitetura e revisão de código | Não | $27,56 USD |
-| Qwen 3.8 Max | `qwen-3.8-max` | Grandes repositórios, documentos, pesquisa e contexto longo | Não | $31,49 USD |
+| GLM 5.3 | `glm-5.3` | Desenvolvimento complexo e agentes autônomos | Não | $45,71 USD |
+| GLM 5.3 Flash | `glm-5.3-flash` | Solicitações frequentes, programação diária, automação e subagentes | Sim | $35,64 USD |
+| DeepSeek V4.1 Flash | `deepseek-v4.1-flash` | Agentes de programação e tarefas paralelas de desenvolvimento | Sim | $38,61 USD |
+| DeepSeek V4 Pro | `deepseek-v4-pro` | Raciocínio em várias etapas, arquitetura e revisão de código | Não | $32,58 USD |
+| Qwen 3.8 Max | `qwen-3.8-max` | Grandes repositórios, documentos, pesquisa e contexto longo | Não | $40,31 USD |
 
 Segundo os dados informados pelo proprietário em 9 de novembro de 2026, o contexto desses modelos é de aproximadamente 200.000 tokens. É um valor aproximado; confirme os limites reais das solicitações na documentação atual.
-Os preços em USD e recursos acima refletem a exibição de moeda do site em 3 de novembro de 2026. Os preços podem mudar antes do pagamento; confira o painel antes de comprar. Cada assinatura paga listada inclui quatro solicitações simultâneas e não tem cota acumulada de tokens durante sua vigência. Entrada de imagem significa que o modelo aceita imagens; não significa geração de imagens.
+Os preços em USD e recursos acima refletem a exibição de moeda do site em 19 de novembro de 2026. Os preços podem mudar antes do pagamento; confira o painel antes de comprar. Cada assinatura paga listada inclui quatro solicitações simultâneas e não tem cota acumulada de tokens durante sua vigência. Entrada de imagem significa que o modelo aceita imagens; não significa geração de imagens.
 
 ## Escolha um modelo para seu fluxo de trabalho
 

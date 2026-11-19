@@ -4,8 +4,8 @@
 
 ## Documentation website
 
-- [Rate Cloud documentation](https://shaitor52.github.io/RateCloud/): HTML pages and language navigation. The English homepage source is [README.md](README.md).
-- [Documentation index](https://shaitor52.github.io/RateCloud/llms.txt): direct links to every page.
+- [Rate Cloud documentation](https://karlukavaleria.github.io/Rate-Cloud/): HTML pages and language navigation. The English homepage source is [README.md](README.md).
+- [Documentation index](https://karlukavaleria.github.io/Rate-Cloud/llms.txt): direct links to every page.
 
 ## Official website
 
@@ -41,7 +41,7 @@
 - [Official API cost comparison](articles/08-cost-and-service-comparison.md)
 - [20 unlimited-token workflows](articles/09-unlimited-use-cases.md)
 - Accounts start at 20 RPM. A paid model or Full model purchase or renewal at the new tariff raises the base to 25 RPM. Any account can buy one 30-day upgrade of +5, +10, +15, +20 or +25 RPM. Total limits are 25 to 45 RPM on a 20 RPM base and 30 to 50 RPM on a 25 RPM base. RPM upgrades use a separate order and do not add model slots.
-- [Rates checked on November 18, 2026](data/subscriptions-2026-11-18.json): USD display amounts for model subscriptions and account RPM upgrades. Check the current total before paying.
+- [Rates checked on November 19, 2026](data/subscriptions-2026-11-19.json): USD display amounts for model subscriptions and account RPM upgrades. Check the current total before paying.
 - [Performance and pricing datasets](data/README.md)
 
 ## Interpretation

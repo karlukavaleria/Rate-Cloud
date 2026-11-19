@@ -2,6 +2,8 @@
 
 English · [Русский](../../ru/articles/08-cost-and-service-comparison.md) · Español · [Português](../../pt/articles/08-cost-and-service-comparison.md)
 
+[Precios actuales de las suscripciones](../README.md).
+
 **La ventaja de Rate Cloud es un precio de suscripción fijo y sin cuota acumulada de tokens. A medida que aumenta el uso, el precio de la suscripción al modelo se mantiene.** Una API de pago por uso cobra cada token facturable. Esto puede hacer que la programación, el análisis y la automatización sostenidos sean mucho más baratos en Rate Cloud, siempre que la carga de trabajo se ajuste a su velocidad, concurrencia, funciones y disponibilidad.
 
 Rate Cloud no es automáticamente más barato cuando el uso es ligero. Los proveedores oficiales ofrecen descuentos útiles por caché, lotes, horarios de menor demanda y otras condiciones. Esta comparación hace explícitos esos compromisos. Comprobado el 3 de noviembre de 2026; no es una promesa de precios futuros.

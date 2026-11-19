@@ -36,13 +36,13 @@
     "try_label": "Try it",
     "full_model_title": "Full model",
     "full_model_intro": "All five current models in one plan.",
-    "full_model_prices": "One package: $62.48 / 30 days, $31.24 / 7 days, or $18.75 / 3 days. A 10% code lowers the prices to $56.24, $28.12, and $16.88, using the public display-currency snapshot dated November 18, 2026.",
+    "full_model_prices": "One package: $62.65 / 30 days, $31.33 / 7 days, or $18.80 / 3 days. A 10% code lowers the prices to $56.39, $28.19, and $16.92, using the public display-currency snapshot dated November 19, 2026.",
     "full_model_slots": "One slot per model per package. Quantities stack equally across all models and cannot be reassigned. Two packages allow two simultaneous requests per model. Additional purchases add slots; renewing a chosen quantity extends its term without changing slots. Individual subscriptions remain independent. First-purchase offers apply under usual rules. Manual renewal is a new order and may use promo codes or bonuses when the account meets usual eligibility rules. Automatic renewal through Whop is charged at the full agreed price without repeating the introductory discount.",
     "full_model_link": "Plan details and current prices",
     "rpm_title": "Account rate limits",
     "rpm_rule": "The account starts with a limit of 20 requests started per minute (RPM). The first paid purchase or renewal of a model or Full model subscription at the new price raises it to 25 RPM, including purchases paid with bonuses. Old invoices, trials, and gifts do not qualify for 25 RPM. All models, API keys, and connections share this limit.",
-    "rpm_addon": "Any account can buy a 30-day limit upgrade. A base of 20 RPM gives total limits from 25 to 45 RPM, and a base of 25 RPM gives total limits from 30 to 50 RPM. Upgrades do not stack, and only one selected account limit applies. When the upgrade expires, the account returns to its base limit. RPM upgrades do not add model concurrency slots. Model subscriptions and RPM upgrades are paid for in separate orders.",
-    "rpm_prices": "Price for 30 days. +5 RPM / $14.55 · +10 RPM / $32.75 · +15 RPM / $55.49 · +20 RPM / $83.91 · +25 RPM / $119.44"
+    "rpm_addon": "Any account can buy a 30-day limit upgrade. A base of 20 RPM gives total limits from 25 to 45 RPM, and a base of 25 RPM gives total limits from 30 to 50 RPM. Upgrades do not stack, and only one selected account limit applies. When the upgrade expires, the account returns to its base limit. RPM upgrades do not add model concurrency slots. Platega and RollyPay support one payment for a new 30-day model subscription and an RPM upgrade. Other purchases require separate orders.",
+    "rpm_prices": "Price for 30 days. +5 RPM / $14.59 · +10 RPM / $32.84 · +15 RPM / $55.64 · +20 RPM / $84.14 · +25 RPM / $119.77"
   },
   "ru": {
     "eyebrow": "ОБЗОР ПРОДУКТА",
@@ -86,7 +86,7 @@
     "full_model_link": "Состав пакета и актуальные цены",
     "rpm_title": "Лимит запросов аккаунта",
     "rpm_rule": "Базовый лимит аккаунта составляет 20 начатых запросов в минуту (RPM). Первая оплаченная покупка или продление подписки на модель или Full model по новому тарифу повышает его до 25 RPM, включая оплату бонусами. Старые счета, пробный и подарочный доступ не дают 25 RPM. Лимит общий для всех моделей, API-ключей и подключений.",
-    "rpm_addon": "Повышение лимита на 30 дней доступно любому аккаунту. При базовом лимите 20 RPM общий лимит составит от 25 до 45 RPM, при базовом лимите 25 RPM от 30 до 50 RPM. Пакеты не суммируются, действует один выбранный общий лимит. Когда пакет истекает, возвращается базовый лимит аккаунта. Пакет RPM не добавляет параллельных слотов моделей. Подписки на модели и RPM оплачиваются отдельными заказами.",
+    "rpm_addon": "Повышение лимита на 30 дней доступно любому аккаунту. При базовом лимите 20 RPM общий лимит составит от 25 до 45 RPM, при базовом лимите 25 RPM от 30 до 50 RPM. Пакеты не суммируются, действует один выбранный общий лимит. Когда пакет истекает, возвращается базовый лимит аккаунта. Пакет RPM не добавляет параллельных слотов моделей. Новую подписку на модель на 30 дней и пакет RPM можно оплатить одним платежом через Platega или RollyPay. В остальных случаях оформляются отдельные заказы.",
     "rpm_prices": "Стоимость на 30 дней. +5 RPM / 1 200 ₽ · +10 RPM / 2 700 ₽ · +15 RPM / 4 575 ₽ · +20 RPM / 6 918,75 ₽ · +25 RPM / 9 848,44 ₽"
   },
   "es": {
@@ -126,13 +126,13 @@
     "try_label": "Probar",
     "full_model_title": "Full model",
     "full_model_intro": "Los cinco modelos actuales en un plan.",
-    "full_model_prices": "Un paquete: $62.48 / 30 días, $31.24 / 7 días o $18.75 / 3 días. Un código del 10% reduce los precios a $56.24, $28.12 y $16.88, con la conversión pública del 18 de noviembre de 2026.",
+    "full_model_prices": "Un paquete: $62.65 / 30 días, $31.33 / 7 días o $18.80 / 3 días. Un código del 10% reduce los precios a $56.39, $28.19 y $16.92, con la conversión pública del 18 de noviembre de 2026.",
     "full_model_slots": "Un espacio por modelo en cada paquete. Las cantidades se acumulan por igual para todos los modelos y no se reasignan. Dos paquetes permiten dos solicitudes simultáneas por modelo. Las compras adicionales añaden espacios; renovar una cantidad elegida amplía el periodo sin cambiar los espacios. Las suscripciones individuales son independientes. Las ofertas de primera compra siguen las reglas habituales. La renovación manual es un nuevo pedido y puede usar códigos promocionales o bonos si la cuenta cumple las reglas habituales de elegibilidad. La renovación automática a través de Whop se cobra al precio total acordado, sin repetir el descuento inicial.",
     "full_model_link": "Detalles del plan y precios actuales",
     "rpm_title": "Límite de solicitudes de la cuenta",
     "rpm_rule": "El límite inicial de la cuenta es de 20 solicitudes iniciadas por minuto (RPM). La primera compra o renovación pagada de una suscripción de modelo o Full model con la nueva tarifa lo sube a 25 RPM, también si se paga con bonos. Las facturas antiguas, las pruebas y los accesos de regalo no habilitan los 25 RPM. Todos los modelos, claves API y conexiones comparten este límite.",
-    "rpm_addon": "Cualquier cuenta puede comprar un aumento del límite por 30 días. Con un límite base de 20 RPM, el límite total va de 25 a 45 RPM. Con una base de 25 RPM, va de 30 a 50 RPM. Los aumentos no se acumulan y solo se aplica un límite para la cuenta. Al vencer el aumento, vuelve a aplicarse el límite base. Los aumentos de RPM no añaden plazas de concurrencia a los modelos. Las suscripciones a modelos y los aumentos de RPM se pagan en pedidos separados.",
-    "rpm_prices": "Precio por 30 días. +5 RPM / $14,55 · +10 RPM / $32,75 · +15 RPM / $55,49 · +20 RPM / $83,91 · +25 RPM / $119,44"
+    "rpm_addon": "Cualquier cuenta puede comprar un aumento del límite por 30 días. Con un límite base de 20 RPM, el límite total va de 25 a 45 RPM. Con una base de 25 RPM, va de 30 a 50 RPM. Los aumentos no se acumulan y solo se aplica un límite para la cuenta. Al vencer el aumento, vuelve a aplicarse el límite base. Los aumentos de RPM no añaden plazas de concurrencia a los modelos. Platega y RollyPay permiten pagar juntos una nueva suscripción de modelo de 30 días y un aumento de RPM. Las demás compras requieren pedidos separados.",
+    "rpm_prices": "Precio por 30 días. +5 RPM / $14,59 · +10 RPM / $32,84 · +15 RPM / $55,64 · +20 RPM / $84,14 · +25 RPM / $119,77"
   },
   "pt": {
     "eyebrow": "VISÃO GERAL DO PRODUTO",
@@ -171,13 +171,13 @@
     "try_label": "Experimentar",
     "full_model_title": "Full model",
     "full_model_intro": "Os cinco modelos atuais num único plano.",
-    "full_model_prices": "Um pacote: $62.48 / 30 dias, $31.24 / 7 dias ou $18.75 / 3 dias. Um código de 10% reduz os preços para $56.24, $28.12 e $16.88, segundo a conversão pública de 18 de novembro de 2026.",
+    "full_model_prices": "Um pacote: $62.65 / 30 dias, $31.33 / 7 dias ou $18.80 / 3 dias. Um código de 10% reduz os preços para $56.39, $28.19 e $16.92, segundo a conversão pública de 19 de novembro de 2026.",
     "full_model_slots": "Um slot por modelo em cada pacote. As quantidades acumulam-se igualmente para todos os modelos e não são redistribuídas. Dois pacotes permitem dois pedidos simultâneos por modelo. Compras adicionais acrescentam slots; renovar uma quantidade escolhida prolonga o prazo sem alterar os slots. As subscrições individuais são independentes. As ofertas da primeira compra seguem as regras habituais. A renovação manual é uma nova encomenda e pode usar um código promocional ou bónus se a conta cumprir as regras habituais de elegibilidade. A renovação automática através da Whop é cobrada pelo preço total acordado, sem repetir o desconto inicial.",
     "full_model_link": "Detalhes do plano e preços atuais",
     "rpm_title": "Limite de solicitações da conta",
     "rpm_rule": "O limite inicial da conta é de 20 pedidos iniciados por minuto (RPM). A primeira compra ou renovação paga de uma subscrição de modelo ou Full model ao novo preço aumenta o limite para 25 RPM, incluindo pagamentos com bónus. Faturas antigas, testes e ofertas não dão acesso a 25 RPM. Todos os modelos, chaves API e ligações partilham este limite.",
-    "rpm_addon": "Qualquer conta pode comprar um aumento do limite por 30 dias. Com uma base de 20 RPM, o limite total fica entre 25 e 45 RPM. Com uma base de 25 RPM, fica entre 30 e 50 RPM. Os aumentos não são cumulativos e aplica-se apenas um limite de conta. Quando terminar, volta a aplicar-se o limite base. Os aumentos de RPM não acrescentam lugares de execução em paralelo aos modelos. As subscrições de modelos e os aumentos de RPM são pagos em pedidos separados.",
-    "rpm_prices": "Preço por 30 dias. +5 RPM / $14,55 · +10 RPM / $32,75 · +15 RPM / $55,49 · +20 RPM / $83,91 · +25 RPM / $119,44"
+    "rpm_addon": "Qualquer conta pode comprar um aumento do limite por 30 dias. Com uma base de 20 RPM, o limite total fica entre 25 e 45 RPM. Com uma base de 25 RPM, fica entre 30 e 50 RPM. Os aumentos não são cumulativos e aplica-se apenas um limite de conta. Quando terminar, volta a aplicar-se o limite base. Os aumentos de RPM não acrescentam lugares de execução em paralelo aos modelos. A Platega e a RollyPay permitem pagar em conjunto uma nova subscrição de modelo de 30 dias e um aumento de RPM. As outras compras exigem encomendas separadas.",
+    "rpm_prices": "Preço por 30 dias. +5 RPM / $14,59 · +10 RPM / $32,84 · +15 RPM / $55,64 · +20 RPM / $84,14 · +25 RPM / $119,77"
   },
   "de": {
     "eyebrow": "PRODUKTÜBERSICHT",
@@ -216,13 +216,13 @@
     "try_label": "Testen",
     "full_model_title": "Full model",
     "full_model_intro": "Alle fünf aktuellen Modelle in einem Plan.",
-    "full_model_prices": "Ein Paket: $62.48 / 30 Tage, $31.24 / 7 Tage oder $18.75 / 3 Tage. Ein 10%-Code senkt die Preise auf $56.24, $28.12 und $16.88, anhand des öffentlichen Kursstands vom 18. November 2026.",
+    "full_model_prices": "Ein Paket: $62.65 / 30 Tage, $31.33 / 7 Tage oder $18.80 / 3 Tage. Ein 10%-Code senkt die Preise auf $56.39, $28.19 und $16.92, anhand des öffentlichen Kursstands vom 19. November 2026.",
     "full_model_slots": "Ein Slot je Modell und Paket. Mengen stapeln sich gleichmäßig über alle Modelle und sind nicht übertragbar. Zwei Pakete erlauben zwei gleichzeitige Anfragen pro Modell. Zusätzliche Käufe fügen Slots hinzu; die Verlängerung der gewählten Menge verlängert die Laufzeit ohne Änderung der Slots. Einzelabos sind unabhängig. Angebote beim ersten Kauf folgen den üblichen Regeln. Eine manuelle Verlängerung ist eine neue Bestellung und kann einen Gutscheincode oder Boni verwenden, wenn das Konto die üblichen Voraussetzungen erfüllt. Die automatische Verlängerung über Whop wird zum vollen vereinbarten Preis berechnet, ohne den Einführungsrabatt erneut anzuwenden.",
     "full_model_link": "Plandetails und aktuelle Preise",
     "rpm_title": "Anfragelimit für das Konto",
     "rpm_rule": "Das Konto hat zunächst ein Limit von 20 gestarteten Anfragen pro Minute (RPM). Der erste bezahlte Kauf oder die erste bezahlte Verlängerung eines Modell- oder Full-model-Abos zum neuen Preis erhöht das Limit auf 25 RPM, auch bei Zahlung mit Bonusguthaben. Alte Rechnungen, Testzugänge und Geschenke führen nicht zu 25 RPM. Alle Modelle, API-Schlüssel und Verbindungen teilen sich dieses Limit.",
-    "rpm_addon": "Jedes Konto kann sein Limit für 30 Tage erhöhen. Mit einem Basislimit von 20 RPM liegt das Gesamtlimit zwischen 25 und 45 RPM, bei 25 RPM zwischen 30 und 50 RPM. Upgrades sind nicht kombinierbar, es gilt ein einziges ausgewähltes Kontolimit. Nach Ablauf gilt wieder das Basislimit. RPM-Upgrades fügen keine parallelen Modell-Slots hinzu. Modell-Abos und RPM-Upgrades werden in separaten Bestellungen bezahlt.",
-    "rpm_prices": "Preis für 30 Tage. +5 RPM / $14,55 · +10 RPM / $32,75 · +15 RPM / $55,49 · +20 RPM / $83,91 · +25 RPM / $119,44"
+    "rpm_addon": "Jedes Konto kann sein Limit für 30 Tage erhöhen. Mit einem Basislimit von 20 RPM liegt das Gesamtlimit zwischen 25 und 45 RPM, bei 25 RPM zwischen 30 und 50 RPM. Upgrades sind nicht kombinierbar, es gilt ein einziges ausgewähltes Kontolimit. Nach Ablauf gilt wieder das Basislimit. RPM-Upgrades fügen keine parallelen Modell-Slots hinzu. Bei Platega und RollyPay lassen sich ein neues 30-Tage-Modell-Abo und ein RPM-Upgrade gemeinsam bezahlen. Für andere Käufe sind getrennte Bestellungen nötig.",
+    "rpm_prices": "Preis für 30 Tage. +5 RPM / $14,59 · +10 RPM / $32,84 · +15 RPM / $55,64 · +20 RPM / $84,14 · +25 RPM / $119,77"
   },
   "fr": {
     "eyebrow": "APERÇU DU PRODUIT",
@@ -261,12 +261,12 @@
     "try_label": "Essayer",
     "full_model_title": "Full model",
     "full_model_intro": "Les cinq modèles actuels dans un seul forfait.",
-    "full_model_prices": "Un pack : $62.48 / 30 jours, $31.24 / 7 jours ou $18.75 / 3 jours. Un code de 10 % réduit les prix à $56.24, $28.12 et $16.88, selon le taux public du 18 novembre 2026.",
+    "full_model_prices": "Un pack : $62.65 / 30 jours, $31.33 / 7 jours ou $18.80 / 3 jours. Un code de 10 % réduit les prix à $56.39, $28.19 et $16.92, selon le taux public du 19 novembre 2026.",
     "full_model_slots": "Un emplacement par modèle et par pack. Les quantités s’additionnent pour tous les modèles sans transfert possible. Deux packs autorisent deux requêtes simultanées par modèle. Les achats supplémentaires ajoutent des emplacements ; renouveler la quantité choisie prolonge la durée sans changer les emplacements. Les abonnements individuels sont indépendants. Les offres du premier achat suivent les règles habituelles. Le renouvellement manuel constitue une nouvelle commande et peut utiliser un code promo ou des bonus si le compte respecte les règles habituelles d’éligibilité. Le renouvellement automatique via Whop est facturé au plein tarif convenu, sans répéter la remise de bienvenue.",
     "full_model_link": "Détails du forfait et tarifs actuels",
     "rpm_title": "Limite de requêtes du compte",
     "rpm_rule": "Le compte dispose initialement de 20 requêtes lancées par minute (RPM). Le premier achat ou renouvellement payé d’un abonnement de modèle ou Full model au nouveau tarif porte la limite à 25 RPM, y compris avec des crédits bonus. Les anciennes factures, les essais et les accès offerts ne donnent pas droit à 25 RPM. Tous les modèles, clés API et connexions partagent cette limite.",
-    "rpm_addon": "Chaque compte peut acheter une hausse du plafond durant 30 jours. Avec une base de 20 RPM, le plafond total va de 25 à 45 RPM. Avec une base de 25 RPM, il va de 30 à 50 RPM. Les hausses ne se cumulent pas et une seule limite s’applique au compte. À l’expiration, le compte revient à sa limite de base. Une hausse de RPM n’ajoute pas de créneaux de traitement en parallèle aux modèles. Les abonnements aux modèles et les hausses de RPM se paient dans des commandes séparées.",
-    "rpm_prices": "Prix pour 30 jours. +5 RPM / $14,55 · +10 RPM / $32,75 · +15 RPM / $55,49 · +20 RPM / $83,91 · +25 RPM / $119,44"
+    "rpm_addon": "Chaque compte peut acheter une hausse du plafond durant 30 jours. Avec une base de 20 RPM, le plafond total va de 25 à 45 RPM. Avec une base de 25 RPM, il va de 30 à 50 RPM. Les hausses ne se cumulent pas et une seule limite s’applique au compte. À l’expiration, le compte revient à sa limite de base. Une hausse de RPM n’ajoute pas de créneaux de traitement en parallèle aux modèles. Platega et RollyPay permettent de régler ensemble un nouvel abonnement de modèle de 30 jours et une hausse de RPM. Les autres achats nécessitent des commandes séparées.",
+    "rpm_prices": "Prix pour 30 jours. +5 RPM / $14,59 · +10 RPM / $32,84 · +15 RPM / $55,64 · +20 RPM / $84,14 · +25 RPM / $119,77"
   }
 }

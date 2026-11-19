@@ -2,6 +2,8 @@
 
 English · [Русский](../ru/articles/02-models.md)
 
+[Current subscription prices](../README.md).
+
 Rate Cloud's published catalog contains five models. Each has a separate subscription and an exact identifier for direct HTTP requests. Select a model by the work you need it to perform, then test representative inputs.
 
 **Full model is a commercial bundle of these five native API models, not a sixth model or API ID.** Each package adds one concurrent slot to every model listed below. Package quantities apply equally to all five models and cannot be reassigned, so two packages provide two concurrent slots per model. See the [Full model details and pricing](01-about-rate-cloud.md).
@@ -10,14 +12,14 @@ Rate Cloud's published catalog contains five models. Each has a separate subscri
 
 | Model | Direct API ID | Main positioning | Image input | Published 30-day price |
 | --- | --- | --- | --- | ---: |
-| GLM 5.3 | `glm-5.3` | Complex development and autonomous agents | No | $34.38 |
-| GLM 5.3 Flash | `glm-5.3-flash` | Frequent requests, daily coding, automation, subagents | Yes | $30.16 |
-| DeepSeek V4.1 Flash | `deepseek-v4.1-flash` | Coding agents and parallel programming tasks | Yes | $30.16 |
-| DeepSeek V4 Pro | `deepseek-v4-pro` | Multistep reasoning, architecture, and code review | No | $27.56 |
-| Qwen 3.8 Max | `qwen-3.8-max` | Large repositories, documents, research, and long context | No | $31.49 |
+| GLM 5.3 | `glm-5.3` | Complex development and autonomous agents | No | $45.71 |
+| GLM 5.3 Flash | `glm-5.3-flash` | Frequent requests, daily coding, automation, subagents | Yes | $35.64 |
+| DeepSeek V4.1 Flash | `deepseek-v4.1-flash` | Coding agents and parallel programming tasks | Yes | $38.61 |
+| DeepSeek V4 Pro | `deepseek-v4-pro` | Multistep reasoning, architecture, and code review | No | $32.58 |
+| Qwen 3.8 Max | `qwen-3.8-max` | Large repositories, documents, research, and long context | No | $40.31 |
 
 Owner-reported context is approximately 200,000 tokens across these models, dated November 9, 2026. Treat this as an approximate value and confirm actual request limits in the live documentation.
-USD display prices come from the [public currency endpoint](https://rate-cloud.com/api/public/display-currency), retrieved November 3, 2026. They are dated display equivalents and can change before checkout. Capabilities reflect the website on the same date. Confirm current purchase conditions in the dashboard. Each listed paid subscription includes four concurrent requests and no cumulative token quota during its term. Image input means the model accepts images; it does not imply image generation.
+USD display prices come from the [public currency endpoint](https://rate-cloud.com/api/public/display-currency), retrieved November 19, 2026. They are dated display equivalents and can change before checkout. Capabilities reflect the website on the same date. Confirm current purchase conditions in the dashboard. Each listed paid subscription includes four concurrent requests and no cumulative token quota during its term. Image input means the model accepts images; it does not imply image generation.
 
 ## Matching a model to a workflow
 

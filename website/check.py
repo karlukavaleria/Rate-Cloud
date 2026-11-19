@@ -11,8 +11,8 @@ from xml.etree import ElementTree as ET
 
 ROOT=Path(__file__).resolve().parents[1]
 OUTPUT=ROOT/'docs'
-BASE='/RateCloud/'
-ORIGIN='https://shaitor52.github.io'
+BASE='/Rate-Cloud/'
+ORIGIN='https://karlukavaleria.github.io'
 
 
 class Page(HTMLParser):
@@ -70,7 +70,7 @@ def main():
                 assert BASE+page.lang+'/articles/infrastructure/' in page.links,(file,'infrastructure link')
         for href in page.links:
             u=urlsplit(href)
-            if u.netloc and u.netloc!='shaitor52.github.io':continue
+            if u.netloc and u.netloc!='karlukavaleria.github.io':continue
             if u.scheme and u.scheme not in ['https','http']:continue
             if u.path:
                 assert u.path.startswith(BASE),(file,href)
@@ -120,8 +120,8 @@ def main():
         'qwen-3.8-max':('13.0-13.5','59.0-63.4'),
     }
     assert {model:(row['time_to_first_text_seconds'],row['output_generation_tokens_per_second']) for model,row in measurements.items()}==expected_measurements,'Current performance CSV values'
-    rub_data=json.loads((ROOT/'ru/data/subscriptions-2026-11-18.json').read_text())
-    usd_data=json.loads((ROOT/'data/subscriptions-2026-11-18.json').read_text())
+    rub_data=json.loads((ROOT/'ru/data/subscriptions-2026-11-19.json').read_text())
+    usd_data=json.loads((ROOT/'data/subscriptions-2026-11-19.json').read_text())
     assert rub_data['currency']=='RUB' and usd_data['currency']=='USD'
     # Observed public homepage dialog amounts, ordered as 3/7/30 days.
     observed={
@@ -131,13 +131,13 @@ def main():
         'deepseek-v4-pro':['804.00','1340.00','2679.00'],
         'qwen-3.8-max':['995.00','1658.00','3315.00'],
     }
-    observed_usd_monthly=['45.59','35.55','38.51','32.49','40.20']
+    observed_usd_monthly=['45.71', '35.64', '38.61', '32.58', '40.31']
     for index,(rub,usd) in enumerate(zip(rub_data['models'],usd_data['models'])):
         assert rub['id']==usd['id']
         assert [rub['periods'][period] for period in ['3','7','30']]==observed[rub['id']]
         assert usd['periods']['30']==observed_usd_monthly[index]
         for period in ['3','7']:
-            expected=(Decimal(rub['periods'][period])/Decimal('82.4529')).quantize(Decimal('.01'),rounding=ROUND_HALF_UP)
+            expected=(Decimal(rub['periods'][period])/Decimal(usd_data['provenance']['rub_per_usd'])).quantize(Decimal('.01'),rounding=ROUND_HALF_UP)
             assert Decimal(usd['periods'][period])==expected
     labels=json.loads((ROOT/'website/overview.json').read_text())
     order=['glm-5.3','glm-5.3-flash','deepseek-v4.1-flash','deepseek-v4-pro','qwen-3.8-max']
@@ -148,7 +148,7 @@ def main():
         assert re.match(r'\s*<section class="product-overview"',after_hero),(locale,'product is second screen')
         cards=re.findall(r'<article class="model-card" data-model="([^"]+)">(.*?)</article>',text,re.S)
         assert [model for model,body in cards]==order,(locale,'five models')
-        dataset=ROOT/('ru/data/subscriptions-2026-11-18.json' if locale=='ru' else 'data/subscriptions-2026-11-18.json')
+        dataset=ROOT/('ru/data/subscriptions-2026-11-19.json' if locale=='ru' else 'data/subscriptions-2026-11-19.json')
         prices={row['id']:row['periods'] for row in json.loads(dataset.read_text())['models']}
         source=ROOT/('README.md' if locale=='en' else locale+'/README.md')
         raw_home=source.read_text()

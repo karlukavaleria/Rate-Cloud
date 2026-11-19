@@ -2,20 +2,22 @@
 
 El catálogo publicado de Rate Cloud contiene cinco modelos. Cada uno tiene una suscripción independiente y un identificador exacto para solicitudes HTTP directas. Elige un modelo según el trabajo que necesitas y pruébalo con entradas representativas.
 
+[Precios actuales de las suscripciones](../README.md).
+
 **Full model es un paquete comercial que reúne estos cinco modelos nativos de la API; no es un sexto modelo ni un ID de API.** Cada paquete añade un espacio simultáneo a cada modelo de la lista. La cantidad de paquetes se aplica por igual a los cinco modelos y los espacios no se pueden reasignar: dos paquetes ofrecen dos espacios simultáneos por modelo. Consulta las [condiciones y precios de Full model](01-about-rate-cloud.md).
 
 ## Catálogo publicado
 
 | Modelo | ID de API directa | Enfoque principal | Entrada de imagen | Precio publicado por 30 días |
 | --- | --- | --- | --- | ---: |
-| GLM 5.3 | `glm-5.3` | Desarrollo complejo y agentes autónomos | No | $34,38 USD |
-| GLM 5.3 Flash | `glm-5.3-flash` | Solicitudes frecuentes, programación diaria, automatización y subagentes | Sí | $30,16 USD |
-| DeepSeek V4.1 Flash | `deepseek-v4.1-flash` | Agentes de programación y tareas de programación en paralelo | Sí | $30,16 USD |
-| DeepSeek V4 Pro | `deepseek-v4-pro` | Razonamiento en varios pasos, arquitectura y revisión de código | No | $27,56 USD |
-| Qwen 3.8 Max | `qwen-3.8-max` | Repositorios grandes, documentos, investigación y contexto largo | No | $31,49 USD |
+| GLM 5.3 | `glm-5.3` | Desarrollo complejo y agentes autónomos | No | $45,71 USD |
+| GLM 5.3 Flash | `glm-5.3-flash` | Solicitudes frecuentes, programación diaria, automatización y subagentes | Sí | $35,64 USD |
+| DeepSeek V4.1 Flash | `deepseek-v4.1-flash` | Agentes de programación y tareas de programación en paralelo | Sí | $38,61 USD |
+| DeepSeek V4 Pro | `deepseek-v4-pro` | Razonamiento en varios pasos, arquitectura y revisión de código | No | $32,58 USD |
+| Qwen 3.8 Max | `qwen-3.8-max` | Repositorios grandes, documentos, investigación y contexto largo | No | $40,31 USD |
 
 Según los datos comunicados por el propietario el 9 de noviembre de 2026, el contexto de estos modelos es de aproximadamente 200.000 tokens. Es un valor aproximado; confirma los límites reales de las solicitudes en la documentación vigente.
-Los precios en USD y las capacidades reflejan la visualización de moneda del sitio el 3 de noviembre de 2026. Los precios pueden cambiar antes de pagar; comprueba el panel antes de comprar. Cada suscripción de pago indicada incluye cuatro solicitudes simultáneas y no tiene una cuota acumulada de tokens durante su vigencia. La entrada de imagen significa que el modelo acepta imágenes; no implica generación de imágenes.
+Los precios en USD y las capacidades reflejan la visualización de moneda del sitio el 19 de noviembre de 2026. Los precios pueden cambiar antes de pagar; comprueba el panel antes de comprar. Cada suscripción de pago indicada incluye cuatro solicitudes simultáneas y no tiene una cuota acumulada de tokens durante su vigencia. La entrada de imagen significa que el modelo acepta imágenes; no implica generación de imágenes.
 
 ## Elegir un modelo para tu flujo de trabajo
 

@@ -2,6 +2,8 @@
 
 [English](../../articles/08-cost-and-service-comparison.md) · [Deutsch](../../de/articles/08-cost-and-service-comparison.md) · Français · [Русский](../../ru/articles/08-cost-and-service-comparison.md)
 
+[Tarifs actuels des abonnements](../README.md).
+
 **L’avantage de Rate Cloud est un prix d’abonnement fixe, sans quota cumulé de tokens. Le prix du modèle reste le même lorsque l’usage augmente.** Une API à la consommation facture chaque token facturable. Rate Cloud peut donc réduire sensiblement le coût d’un travail soutenu de programmation, d’analyse ou d’automatisation, à condition que le flux convienne à sa vitesse, sa concurrence, ses fonctions et sa disponibilité.
 
 Rate Cloud n’est pas automatiquement moins cher en cas d’usage faible. Les fournisseurs officiels proposent des réductions utiles pour le cache, le traitement par lots, les heures creuses et d’autres conditions. Cette comparaison explicite ces compromis. Vérifiée le 3 novembre 2026 ; elle ne prédit pas les tarifs futurs.

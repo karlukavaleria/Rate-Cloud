@@ -1,6 +1,6 @@
 # Building the documentation website
 
-The source articles remain in the repository's language directories. `website/build.py` generates the static `docs/` tree published by GitHub Pages. The default address is https://shaitor52.github.io/RateCloud/.
+The source articles remain in the repository's language directories. `website/build.py` generates the static `docs/` tree published by GitHub Pages. The default address is https://karlukavaleria.github.io/Rate-Cloud/.
 
 ## Rebuild after editing articles or UI assets
 

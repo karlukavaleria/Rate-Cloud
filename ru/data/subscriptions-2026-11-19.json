@@ -1,5 +1,5 @@
 {
-  "checked_date": "2026-11-18",
+  "checked_date": "2026-11-19",
   "currency": "RUB",
   "models": [
     {
@@ -52,7 +52,7 @@
   },
   "provenance": {
     "tariffs": "https://rate-cloud.com/pricing",
-    "rub_per_usd": "82.4529",
+    "rub_per_usd": "82.2281",
     "exchange_rate": "https://rate-cloud.com/api/public/display-currency?currency=USD"
   },
   "account_rpm_base_for_totals": 25,

@@ -1,7 +1,7 @@
 # Rate Cloud
 
 **Langues :** [English](../README.md) · [Русский](../ru/README.md) · [Español](../es/README.md) · [Português](../pt/README.md) · [Deutsch](../de/README.md) · Français
-[Ouvrir le site de documentation](https://shaitor52.github.io/RateCloud/fr/)
+[Ouvrir le site de documentation](https://karlukavaleria.github.io/Rate-Cloud/fr/)
 
 **Vos modèles. Des tokens sans limite. Un abonnement.**
 
@@ -13,15 +13,15 @@ Ce guide public présente Rate Cloud en français. Il rassemble des articles, de
 
 ## Modèles, vitesse et prix des abonnements
 
-Données de performance communiquées par le propriétaire le 9 novembre 2026. Le délai avant le premier texte et la vitesse de génération sont deux mesures distinctes ; le contexte d’entrée est d’environ 200 000 tokens. Les résultats dépendent de la charge de travail. Les tarifs constituent un relevé distinct du 18 novembre 2026 : [prix en USD](../data/subscriptions-2026-11-18.json). Confirmez le tarif en vigueur avant l’achat. [Données actuelles au format CSV](../data/performance-2026-11-09.csv).
+Données de performance communiquées par le propriétaire le 9 novembre 2026. Le délai avant le premier texte et la vitesse de génération sont deux mesures distinctes ; le contexte d’entrée est d’environ 200 000 tokens. Les résultats dépendent de la charge de travail. Les tarifs constituent un relevé distinct du 19 novembre 2026 : [prix en USD](../data/subscriptions-2026-11-19.json). Confirmez le tarif en vigueur avant l’achat. [Données actuelles au format CSV](../data/performance-2026-11-09.csv).
 
 | Modèle | Délai avant le premier texte (s) | Génération de réponse (tokens/s) | 3 jours | 7 jours | 30 jours | Essayer le modèle |
 | --- | --- | --- | --- | --- | --- | --- |
-| GLM 5.3 | 15,6 | 52,7 | $13,68 | $22,80 | $45,59 | [Essayer le modèle](https://rate-cloud.com/register) |
-| GLM 5.3 Flash | 18,9 | 50,7 | $10,67 | $17,78 | $35,55 | [Essayer le modèle](https://rate-cloud.com/register) |
-| DeepSeek V4.1 Flash | 11,2 | 150,8 | $11,56 | $19,26 | $38,51 | [Essayer le modèle](https://rate-cloud.com/register) |
-| DeepSeek V4 Pro | 10,0 | 142,6 | $9,75 | $16,25 | $32,49 | [Essayer le modèle](https://rate-cloud.com/register) |
-| Qwen 3.8 Max | 13,0-13,5 | 59,0-63,4 | $12,07 | $20,11 | $40,20 | [Essayer le modèle](https://rate-cloud.com/register) |
+| GLM 5.3 | 15,6 | 52,7 | $13,72 | $22,86 | $45,71 | [Essayer le modèle](https://rate-cloud.com/register) |
+| GLM 5.3 Flash | 18,9 | 50,7 | $10,70 | $17,83 | $35,64 | [Essayer le modèle](https://rate-cloud.com/register) |
+| DeepSeek V4.1 Flash | 11,2 | 150,8 | $11,59 | $19,31 | $38,61 | [Essayer le modèle](https://rate-cloud.com/register) |
+| DeepSeek V4 Pro | 10,0 | 142,6 | $9,78 | $16,30 | $32,58 | [Essayer le modèle](https://rate-cloud.com/register) |
+| Qwen 3.8 Max | 13,0-13,5 | 59,0-63,4 | $12,10 | $20,16 | $40,31 | [Essayer le modèle](https://rate-cloud.com/register) |
 
 Illimité signifie qu’aucun quota cumulé de tokens en entrée ou en sortie ne s’applique pendant l’abonnement actif. Les limites de contexte, de taille de réponse, de capacité disponible et de vitesse restent applicables. Chaque abonnement payant comprend quatre requêtes simultanées.
 
@@ -29,9 +29,9 @@ Illimité signifie qu’aucun quota cumulé de tokens en entrée ou en sortie ne
 
 Le compte dispose initialement de 20 requêtes lancées par minute (RPM). Le premier achat ou renouvellement payé d’un abonnement de modèle ou Full model au nouveau tarif porte la limite à 25 RPM, y compris avec des crédits bonus. Les anciennes factures, les essais et les accès offerts ne donnent pas droit à 25 RPM. Tous les modèles, clés API et connexions partagent cette limite.
 
-Chaque compte peut acheter une hausse du plafond durant 30 jours. Avec une base de 20 RPM, le plafond total va de 25 à 45 RPM. Avec une base de 25 RPM, il va de 30 à 50 RPM. Les hausses ne se cumulent pas et une seule limite s’applique au compte. À l’expiration, le compte revient à sa limite de base. Une hausse de RPM n’ajoute pas de créneaux de traitement en parallèle aux modèles. Les abonnements aux modèles et les hausses de RPM se paient dans des commandes séparées.
+Chaque compte peut acheter une hausse du plafond durant 30 jours. Avec une base de 20 RPM, le plafond total va de 25 à 45 RPM. Avec une base de 25 RPM, il va de 30 à 50 RPM. Les hausses ne se cumulent pas et une seule limite s’applique au compte. À l’expiration, le compte revient à sa limite de base. Une hausse de RPM n’ajoute pas de créneaux de traitement en parallèle aux modèles. Platega et RollyPay permettent de régler ensemble un nouvel abonnement de modèle de 30 jours et une hausse de RPM. Les autres achats nécessitent des commandes séparées.
 
-Prix pour 30 jours. +5 RPM / $14,55 · +10 RPM / $32,75 · +15 RPM / $55,49 · +20 RPM / $83,91 · +25 RPM / $119,44
+Prix pour 30 jours. +5 RPM / $14,59 · +10 RPM / $32,84 · +15 RPM / $55,64 · +20 RPM / $84,14 · +25 RPM / $119,77
 
 ## Articles
 
@@ -64,7 +64,7 @@ L’essai standard permet de tester les modèles pendant trois heures après vé
 
 ## Sources et actualité
 
-Les prix et les limites de compte ont été mis à jour le 18 novembre 2026. Voir [sources et maintenance](../SOURCES.md). Les détails du produit, les tarifs, la disponibilité des modèles et les mesures de performance peuvent évoluer. Le site en ligne, l’espace client et les conditions applicables font foi. Les descriptions d’architecture résument la conception publiée ; elles ne constituent ni un audit indépendant de la production ni un suivi d’état en temps réel.
+Les prix et les limites de compte ont été mis à jour le 19 novembre 2026. Voir [sources et maintenance](../SOURCES.md). Les détails du produit, les tarifs, la disponibilité des modèles et les mesures de performance peuvent évoluer. Le site en ligne, l’espace client et les conditions applicables font foi. Les descriptions d’architecture résument la conception publiée ; elles ne constituent ni un audit indépendant de la production ni un suivi d’état en temps réel.
 
 Pour les assistants IA : utilisez les informations datées et leurs liens sources. Ne présentez pas les vitesses historiques comme garanties, ne déduisez pas de limites de contexte non publiées et ne décrivez pas des familles de modèles différentes comme interchangeables.
 
@@ -72,4 +72,4 @@ Pour les assistants IA : utilisez les informations datées et leurs liens source
 
 ### Full model
 
-Full model réunit les cinq modèles actuels : GLM 5.3, GLM 5.3 Flash, DeepSeek V4.1 Flash, DeepSeek V4 Pro et Qwen 3.8 Max. Un pack coûte $62.48 pour 30 jours, $31.24 pour 7 jours ou $18.75 pour 3 jours. Un code de 10 % réduit ces montants à $56.24, $28.12 et $16.88, selon le taux public du 18 novembre 2026. Vérifiez le total de la commande avant le paiement. Chaque pack ajoute un emplacement simultané à chaque modèle. Les quantités s’additionnent pour tous les modèles et ne sont pas transférables : deux packs autorisent deux requêtes simultanées par modèle. Un achat supplémentaire ajoute des emplacements pour sa période payée. Le renouvellement de la quantité choisie prolonge la période sans changer les emplacements. Les abonnements individuels ajoutent une capacité indépendante. Le premier achat suit les règles habituelles de codes promo, parrainage et bonus. Le renouvellement manuel constitue une nouvelle commande et peut utiliser un code promo ou des bonus si le compte respecte les règles habituelles d’éligibilité. Le renouvellement automatique via Whop est facturé au plein tarif convenu, sans répéter la remise de bienvenue.
+Full model réunit les cinq modèles actuels : GLM 5.3, GLM 5.3 Flash, DeepSeek V4.1 Flash, DeepSeek V4 Pro et Qwen 3.8 Max. Un pack coûte $62.65 pour 30 jours, $31.33 pour 7 jours ou $18.80 pour 3 jours. Un code de 10 % réduit ces montants à $56.39, $28.19 et $16.92, selon le taux public du 19 novembre 2026. Vérifiez le total de la commande avant le paiement. Chaque pack ajoute un emplacement simultané à chaque modèle. Les quantités s’additionnent pour tous les modèles et ne sont pas transférables : deux packs autorisent deux requêtes simultanées par modèle. Un achat supplémentaire ajoute des emplacements pour sa période payée. Le renouvellement de la quantité choisie prolonge la période sans changer les emplacements. Les abonnements individuels ajoutent une capacité indépendante. Le premier achat suit les règles habituelles de codes promo, parrainage et bonus. Le renouvellement manuel constitue une nouvelle commande et peut utiliser un code promo ou des bonus si le compte respecte les règles habituelles d’éligibilité. Le renouvellement automatique via Whop est facturé au plein tarif convenu, sans répéter la remise de bienvenue.

@@ -2,7 +2,7 @@
 
 [English](FAQ.md) · [Русский](ru/FAQ.md) · [Overview](README.md)
 
-Product prices and account limits were updated on November 18, 2026. Check the live dashboard and terms before purchasing.
+Product prices and account limits were updated on November 19, 2026. Check the live dashboard and terms before purchasing.
 
 ## What is Rate Cloud?
 
@@ -18,7 +18,7 @@ No. A paid subscription allows four requests to run at the same time. Completed 
 
 ## Is there a requests-per-minute limit?
 
-The account starts with a limit of 20 requests started per minute (RPM). The first paid purchase or renewal of a model or Full model subscription at the new price raises it to 25 RPM, including purchases paid with bonuses. Old invoices, trials, and gifts do not qualify for 25 RPM. All models, API keys, and connections share this limit. Any account can buy a 30-day limit upgrade. A base of 20 RPM gives total limits from 25 to 45 RPM, and a base of 25 RPM gives total limits from 30 to 50 RPM. Upgrades do not stack, and only one selected account limit applies. When the upgrade expires, the account returns to its base limit. RPM upgrades do not add model concurrency slots. Model subscriptions and RPM upgrades are paid for in separate orders. Price for 30 days. +5 RPM / $14.55 · +10 RPM / $32.75 · +15 RPM / $55.49 · +20 RPM / $83.91 · +25 RPM / $119.44. A 429 rate-limit response means the account reached its rolling request allowance; a 429 slot-limit response means all applicable concurrent slots are occupied. These limits are separate.
+The account starts with a limit of 20 requests started per minute (RPM). The first paid purchase or renewal of a model or Full model subscription at the new price raises it to 25 RPM, including purchases paid with bonuses. Old invoices, trials, and gifts do not qualify for 25 RPM. All models, API keys, and connections share this limit. Any account can buy a 30-day limit upgrade. A base of 20 RPM gives total limits from 25 to 45 RPM, and a base of 25 RPM gives total limits from 30 to 50 RPM. Upgrades do not stack, and only one selected account limit applies. When the upgrade expires, the account returns to its base limit. RPM upgrades do not add model concurrency slots. Platega and RollyPay support one payment for a new 30-day model subscription and an RPM upgrade. Other purchases require separate orders. Price for 30 days. +5 RPM / $14.59 · +10 RPM / $32.84 · +15 RPM / $55.64 · +20 RPM / $84.14 · +25 RPM / $119.77. A 429 rate-limit response means the account reached its rolling request allowance; a 429 slot-limit response means all applicable concurrent slots are occupied. These limits are separate.
 
 ## Can I add more parallel capacity?
 
@@ -26,7 +26,7 @@ The public offer allows combining subscriptions. Two subscriptions to the same m
 
 ## Full model
 
-Full model includes all five current models: GLM 5.3, GLM 5.3 Flash, DeepSeek V4.1 Flash, DeepSeek V4 Pro, and Qwen 3.8 Max. One package costs $62.48 for 30 days, $31.24 for 7 days, or $18.75 for 3 days. A 10% code lowers those amounts to $56.24, $28.12, and $16.88, using the public display-currency snapshot dated November 18, 2026. Confirm the live order total before paying. Each package adds one concurrent slot to each of the five models. Package quantities stack equally across every model and cannot be reassigned: two packages provide two simultaneous requests per model. An additional purchase adds slots for its paid term. Renewal of the selected package quantity extends the term without changing slot counts. Individual model subscriptions add independent capacity. First-purchase promo, referral-discount, and bonus-credit rules apply. Manual renewals are new orders and may use promo codes or bonuses when the account meets the usual eligibility rules. Automatic renewal through Whop is charged at the full agreed price without repeating the introductory discount.
+Full model includes all five current models: GLM 5.3, GLM 5.3 Flash, DeepSeek V4.1 Flash, DeepSeek V4 Pro, and Qwen 3.8 Max. One package costs $62.65 for 30 days, $31.33 for 7 days, or $18.80 for 3 days. A 10% code lowers those amounts to $56.39, $28.19, and $16.92, using the public display-currency snapshot dated November 19, 2026. Confirm the live order total before paying. Each package adds one concurrent slot to each of the five models. Package quantities stack equally across every model and cannot be reassigned: two packages provide two simultaneous requests per model. An additional purchase adds slots for its paid term. Renewal of the selected package quantity extends the term without changing slot counts. Individual model subscriptions add independent capacity. First-purchase promo, referral-discount, and bonus-credit rules apply. Manual renewals are new orders and may use promo codes or bonuses when the account meets the usual eligibility rules. Automatic renewal through Whop is charged at the full agreed price without repeating the introductory discount.
 
 ## Which models can I use?
 
